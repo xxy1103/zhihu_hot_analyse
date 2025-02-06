@@ -68,7 +68,7 @@ onMounted(() => {
                 <li v-for="list in jsonData" :key="list.id" class="trend-item">
                   <span class="rank">{{ list.id }}</span>
                     <a class="topic" :href="'https://www.zhihu.com/search?query=' + list.text" target="_blank">{{ list.text }}</a>
-                  <span class="hotness">🔥 {{ list.hot_value }} 万热度</span>
+                  <span class="hotness">🔥 {{ list.hot_value }}</span>
                 </li>
               </form>
             </ul>

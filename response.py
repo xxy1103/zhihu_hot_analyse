@@ -1,12 +1,10 @@
 import http.server
-import requests
-import multiprocessing
 import sys
 import pandas as pd
 from dataclasses import asdict
 import json
+from zhihu_spider import zhihu_hot_name
 
-from zhihu_spider import zhihu_hot_list
 
 
 class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
@@ -16,7 +14,7 @@ class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header("Content-type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
-        json_data = json.dumps(asdict(zhihu_hot_list), ensure_ascii=False)
+        json_data = json.dumps(asdict(zhihu_hot_name), ensure_ascii=False)
         self.wfile.write(json_data.encode('utf-8'))
 
     def do_POST(self):
@@ -28,7 +26,7 @@ class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 
 def run(server_class=http.server.HTTPServer, handler_class=MyHTTPRequestHandler):
     # 获取服务器的地址和端口，如果没有指定，则使用默认的值
-    server_address = ("0.0.0.0", 5251)
+    server_address = ("127.0.0.1", 5251)
     if len(sys.argv) > 1:
         server_address = (sys.argv[1], int(sys.argv[2]))
     # 创建一个服务器对象
