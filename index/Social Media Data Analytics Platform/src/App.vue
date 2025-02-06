@@ -1,0 +1,78 @@
+<script setup>
+import { ref, onMounted, computed } from 'vue'
+import { marked } from 'marked'
+
+let id = 1
+const jsonData = ref(null)
+const topic_classified = ref('')
+
+onMounted(async () => {
+  try {
+    const response = await fetch('doc/hot_list_analyse.md') // txt 文件放在 public 目录下
+    topic_classified.value = await response.text()
+  } catch (error) {
+    console.error('读取txt文件出错:', error)
+  }
+})
+
+
+const htmlContent = computed(() => marked(topic_classified.value))
+
+async function fetchData() {
+  try {
+    const response = await fetch('http://localhost:5251/')
+    const data = await response.json()
+    // 假设 data.name 与 data.hot_value 均为数组
+    const items = data.name.map((name, index) => ({
+      id: id++,
+      text: name,
+      hot_value: data.hot_value[index]
+    }))
+    jsonData.value = items
+  } catch (error) {
+    console.error('请求数据失败：', error)
+  }
+}
+
+onMounted(() => {
+  fetchData()
+  console.log(jsonData.value)
+})
+
+</script>
+
+
+
+<template>
+  <header>
+        <h1>今日知乎热点</h1>
+    </header>
+    
+    <div class="container">
+        <aside>
+            <h3>话题分类</h3>
+            <div class="topic_classified" v-html="htmlContent"></div>
+            <h3>数据可视化</h3>
+            <img src="@/image/关注者折线图.png" alt="示例图片" style="width:80%; height:auto;" />
+            <img src="@/image/热度折线图.png" alt="示例图片" style="width:80%; height:auto;" />
+            <img src="@/image/总回答数折线图.png" alt="示例图片" style="width:80%; height:auto;" />
+            <ul class="side-content">
+            </ul>
+        </aside>
+        
+        
+        <main>
+            <h2>Hot Search List</h2>
+            <ul class="trend-list">
+              <form @submit.prevent="addTodo">
+                <li v-for="list in jsonData" :key="list.id" class="trend-item">
+                  <span class="rank">{{ list.id }}</span>
+                    <a class="topic" :href="'https://www.zhihu.com/search?query=' + list.text" target="_blank">{{ list.text }}</a>
+                  <span class="hotness">🔥 {{ list.hot_value }} 万热度</span>
+                </li>
+              </form>
+            </ul>
+        </main>
+    </div>
+</template>
+
