@@ -4,7 +4,7 @@ import pandas as pd
 from dataclasses import asdict
 import json
 from zhihu_spider import zhihu_hot_name
-
+from zhihu_spider import log
 
 
 class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
@@ -32,6 +32,6 @@ def run(server_class=http.server.HTTPServer, handler_class=MyHTTPRequestHandler)
     # 创建一个服务器对象
     httpd = server_class(server_address, handler_class)
     # 打印一条信息，表示服务器已经启动
-    print(f"Server running on http://{server_address[0]}:{server_address[1]}/")
+    log(f"Server running on http://{server_address[0]}:{server_address[1]}/")
     # 让服务器一直运行，直到按下Ctrl+C
     httpd.serve_forever()

@@ -4,14 +4,28 @@ from urllib import parse
 from random import uniform
 import time
 import pandas
-import schedule
-import re
 from dataclasses import dataclass, field
 from typing import List, Any
+import os
+import hashlib
 
+def chinese_to_numeric_hash(text: str) -> str:
+    """
+    将输入的汉字字符串使用 SHA-256 哈希后，
+    将结果转换为一个十进制数字字符串返回
+    """
+    # 对文本进行 UTF-8 编码，并计算 SHA-256 的哈希值（16进制字符串）
+    hex_hash = hashlib.sha256(text.encode('utf-8')).hexdigest()
+    # 将16进制字符串转换为一个大整数，再转为十进制字符串
+    numeric_hash = str(int(hex_hash, 16))
+    return numeric_hash
 
-cookie = r"_xsrf=mkli2TRtNYyVbNeLzH5CbNwB5Gr0D6SI; _zap=27b83296-aef0-4a04-ae4c-3d9179924189; d_c0=APDRR6WVkBmPTkpxJV5GVFfKmK1SfLD5_lA=|1731979634; q_c1=752e14a99e1947878c4c8a582e035f63|1736564683000|1736564683000; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1737302597,1737815283,1737879918,1738160077; z_c0=2|1:0|10:1738726849|4:z_c0|80:MS4xMlVidkNnQUFBQUFtQUFBQVlBSlZUZlJDZ21oT0FfM190bmJJZGNncUZZUlZuUnBBSG5qOGhRPT0=|507ef20541895351609cd75946c172228bac88c970fef382aed022745ee073b9; tst=h; SESSIONID=4mwS77wubagqcc58Ghno125PocoH3C4Dae58nou7f06; JOID=U1kXCkpgpZPwsGaNW2jFAoqAJRZBVMvvq4dR-SUCxPeK2wW4YPH8NJ-wZYVYtxmxcX965qovOu7b8aoEUCWknV8=; osd=VlEdBUxlrZn_tmOFUWfDB4KKKhBEXMHgrYJZ8yoEwf-A1AO9aPvzMpq4b4peshG7fnl_7qAgPOvT-6UCVS2uklk=; __zse_ck=004_cs5aIC4shnOvp54yRDd=tuzR9uqrgsblF7/2qj=FDMSl3jPmgF3ts8QYQpLZi0GN7N=4GmP9COSMIrK2iTTYGR62ZQa0VX2GraX7AEPscL6846DgXFt4nZLEJiTzsK3A-47gnweAMYCJ3Bx5zPWEB5DB+1uMq9ajeMBbp3BsmgswPd95xS9asWHu2FyErqiaG0sbAlkcMZtQan3Y9VjeckRtCglMeOTTNONqJPh90kl3PvEqOaXzmaJRNzd4Kda8X;"
+cookie = r"SESSIONID=F3wvGTSHXQaVMsPAmmijcgp4y2xH6g3G7RIrwKu7Hbu; JOID=W1EcB0qXSN4coRnVZJogTGOaX0Z9wQ7rVeJBsSTYBJR-6UGRPRnyc3apGdhsi60wXiEFRbNtfMB5WVNk6BbDN8Q=; osd=UVwcAE6dRd4bpRPYZJ0kRm6aWEJ3zA7sUehMsSPcDpl-7kWbMBn1d3ykGd9ogaAwWSUPSLNqeMp0WVRg4hvDMMA=; _xsrf=mkli2TRtNYyVbNeLzH5CbNwB5Gr0D6SI; _zap=27b83296-aef0-4a04-ae4c-3d9179924189; d_c0=APDRR6WVkBmPTkpxJV5GVFfKmK1SfLD5_lA=|1731979634; q_c1=752e14a99e1947878c4c8a582e035f63|1736564683000|1736564683000; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1737302597,1737815283,1737879918,1738160077; z_c0=2|1:0|10:1738726849|4:z_c0|80:MS4xMlVidkNnQUFBQUFtQUFBQVlBSlZUZlJDZ21oT0FfM190bmJJZGNncUZZUlZuUnBBSG5qOGhRPT0=|507ef20541895351609cd75946c172228bac88c970fef382aed022745ee073b9; tst=h; SESSIONID=VF8LKXdMGLJoMPDYJScj6dp98Cr4MEAcoX1VSFGPFrw; JOID=UlEQC0uDPGsN1xHYPItV_H7hUkog3HZeSZxAsHzEeS1vkkGVacqKy2LeFNk51LqgxkCgL5ORKGTEOHl1iKR0huQ=; osd=V1oWA0qGN20F1hTTOoNU-XXnWksl13BWSJlLtnTFfCZpmkCQYsyCymfVEtE40bGmzkGlJJWZKWHPPnF0ja9yjuU=; __zse_ck=004_Fe7TJHiQlzZTUGt7WloV6gLlfIFnUawDQLJZst/QOE3VYE39RR5aGsy/oGBLGKo5Y0os3FVnrBsU=MHEX49P0YtAgi6ROeHQ7Vrb8IneC9T0=keOC2/zupltjjSwbNUJ-K+m+IQxJlHevH6kiYVjUcOvAm7GMHncL1W4L2NkAjwGOwqpTvQXoWPbGuccPMIGAGy4K1kj1ncM+vPF8gNbMGSLnq7pP4Ko2NQnIbARvf268VmIA7SO4GvCznC32q+x3; BEC=92a0fca0e2e4d1109c446d0a990ad863"
 zhihu_hot_list = []
+
+def log(message):
+    with open('data/log/log.txt', 'a', encoding='utf-8') as f:
+        f.write(f'{message}\n')
 
 
 
@@ -76,7 +90,7 @@ class ZhihuSpider(Spider):
         cnt = 1
         judgement = False  #判断表单是否变化
         for i in data:
-            item = {'排名': None, '标题': None, '描述': None, '链接': None, '图像': None, '热度': None, '关注者': None, '被浏览量': None, '总回答数': None,"是否在榜":True}
+            item = {'排名': None, '标题': None, '描述': None, '链接': None, '图像': None, '热度': None, '关注者': None, '被浏览量': None, '总回答数': None,"是否在榜":True,"是否已生成ai总结":False}
             item['排名'] = cnt
             item['标题'] = i['target']['title']
             item['描述'] = i['target']['excerpt']
@@ -103,24 +117,38 @@ class ZhihuSpider(Spider):
                     j["关注者"] = item["关注者"]
                     j["被浏览量"] = item["被浏览量"]
                     j["总回答数"] = item["总回答数"]
-                    j["是否在榜"] = item["是否在榜"]
+                    j["是否在榜"] = True
                     judge = True #已经在榜了，不再添加
                     break
-            if judge == False:  #不在榜的话，添加回答
+            #不在榜的话，添加回答
+            if judge == False:
                 answers = self.get_answer(i['target']['id'])
                 item.update(answers)
                 judgement = True
                 zhihu_hot_list.append(item)
-                print(f"已添加新热搜：{item['标题']}")
-            cnt += 1    
+                self.log(f"已添加新热搜：{item['标题']}")
+            cnt += 1
+        items_to_remove = []
         for i in zhihu_hot_list:
-            if i["是否在榜"] == False:
-                #不在榜的话，删除
-                print(f"删除下榜热搜：{i['标题']}")
-                zhihu_hot_list.remove(i)
-            i["是否在榜"] = False
-            #按排名排序
+            if not i["是否在榜"]:
+                items_to_remove.append(i)
+        for item in items_to_remove:
+            self.log(f"热搜{item['标题']}已不在榜,准备删除")
+            try:
+                os.remove("./index/Social Media Data Analytics Platform/public/doc/{}.md".format(chinese_to_numeric_hash(item['标题'])))
+                self.log(f"已删除热搜{item['标题']}的ai评论总结")
+            except Exception as e:
+                    self.log(f"删除热搜{item['标题']}的ai评论总结失败, 原因: {e}")
+            try:
+                zhihu_hot_list.remove(item)
+                self.log(f"已删除热搜{item['标题']}")
+            except Exception as e:
+                self.log(f"删除热搜{item['标题']}失败, 原因: {e}")
+        #按排名排序
         zhihu_hot_list.sort(key=lambda x: x['排名'])
+
+        for i in zhihu_hot_list:
+            i["是否在榜"] = False
         #将热搜名字和热度存入zhihu_hot_name
         zhihu_hot_name.name = [i['标题'] for i in zhihu_hot_list]
         zhihu_hot_name.hot_value = [i['热度'] for i in zhihu_hot_list]
@@ -159,7 +187,4 @@ class ZhihuSpider(Spider):
 if __name__ == '__main__':
     zhihu = ZhihuSpider()
     zhihu.run()
-    schedule.every(2).minutes.do(zhihu.run)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    

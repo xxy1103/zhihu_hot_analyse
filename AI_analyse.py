@@ -1,6 +1,11 @@
 from ollama import Client
 import pandas as pd
 import re
+from zhihu_spider import chinese_to_numeric_hash
+from zhihu_spider import log 
+
+
+
 
 def hot_list_analyse(file_path, output_dir, key =""):
     
@@ -38,5 +43,38 @@ def hot_list_analyse(file_path, output_dir, key =""):
     parts = re.split(r"<think>.*?</think>\n\n", response['message']['content'], flags=re.S)
     with open(output_dir + "hot_list_analyse.md", "w") as f:
         f.write(parts[1])
+
+def hot_answer_analyse(zhihu_hot_list, output_dir, key =""):
+    cnt = 1
+    for i in zhihu_hot_list:
+      if i["是否已生成ai总结"] == True:
+        continue
+      client = Client(
+        host='http://localhost:11434',
+        headers={'x-some-header': 'some-value'}
+      )
+      response = client.chat(model='deepseek-r1:8b', messages=[
+      {
+      'role': 'system',
+      'content': 
+      '''
+我希望你扮演一个知乎评论分析师，结合**问题**以及阅读以下热门评论，并为我提炼出评论中的核心争议点。请分析不同观点之间的冲突，并解释每个观点的潜在影响。
+      ''',
+    },
+    {
+      'role': 'user',
+      'content': str(i),
+    },
+])
+      parts = re.split(r"<think>.*?</think>\n\n", response['message']['content'], flags=re.S)
+      name = chinese_to_numeric_hash(i["标题"])
+      with open(output_dir + name +".md", "w") as f:
+        f.write(parts[1])
+      log(f"已分析第{cnt}条热搜{i['标题']}的热门评论")
+      cnt += 1
+      i["是否已生成ai总结"] = True
+
+
 if __name__ == '__main__':
   hot_list_analyse("./data/csv/zhihu_hot0.csv", "./data/text")
+  
