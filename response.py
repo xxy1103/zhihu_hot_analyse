@@ -4,18 +4,41 @@ import pandas as pd
 from dataclasses import asdict
 import json
 from zhihu_spider import zhihu_hot_name
+from zhihu_spider import zhihu_hot_list
 from zhihu_spider import log
+from urllib.parse import urlparse, parse_qs
 
 
 class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self) -> None:
+        # 解析 URL 并获取查询参数
+        global zhihu_hot_name
+        global zhihu_hot_list
+        parsed_url = urlparse(self.path)
+        params = parse_qs(parsed_url.query)
+        id_param = params.get('id', [None])[0]  # 如果没有 id 参数则返回 None
+
         # 发送200状态码，表示请求成功
         self.send_response(200)
         self.send_header("Content-type", "application/json")
         self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
-        json_data = json.dumps(asdict(zhihu_hot_name), ensure_ascii=False)
-        self.wfile.write(json_data.encode('utf-8'))
+        if id_param is None:
+            json_data = json.dumps(asdict(zhihu_hot_name), ensure_ascii=False)
+            self.wfile.write(json_data.encode('utf-8'))
+        else:
+            try:
+                for i in zhihu_hot_list:
+                    if str(i['Hash']) == str(id_param):
+                        json_data = json.dumps(i, ensure_ascii=False)
+                        self.wfile.write(json_data.encode('utf-8'))
+                        return
+            except Exception as e:
+                log(f"Failed to find hot with id {id_param}: {e}")
+                self.send_response(404)
+                self.end_headers()
+                return
+
 
     def do_POST(self):
         # 发送200状态码，表示请求成功

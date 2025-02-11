@@ -1,19 +1,12 @@
 <script setup>
-import { ref, onMounted, computed } from 'vue'
-import { marked } from 'marked'
+import { ref, onMounted } from 'vue'
+import { RouterLink , RouterView} from 'vue-router'
 
 let id = 1
 const jsonData = ref(null)
-const topic_classified = ref('')
 
-onMounted(async () => {
-  try {
-    const response = await fetch('doc/hot_list_analyse.md') // txt 文件放在 public 目录下
-    topic_classified.value = await response.text()
-  } catch (error) {
-    console.error('读取txt文件出错:', error)
-  }
-})
+
+
 
 // 异步函数：将中文字符串进行 SHA-256 哈希，并转换为十进制数字字符串
 async function chineseToNumericHash(text) {
@@ -30,7 +23,7 @@ async function chineseToNumericHash(text) {
   return numericHash
 }
 
-const htmlContent = computed(() => marked(topic_classified.value))
+
 
 async function fetchData() {
   try {
@@ -58,6 +51,7 @@ onMounted(() => {
   console.log(jsonData.value)
 })
 
+
 </script>
 
 
@@ -69,29 +63,23 @@ onMounted(() => {
     
     <div class="container">
         <aside>
-            <h3>话题分类</h3>
-            <div class="topic_classified" v-html="htmlContent"></div>
-            <h3>数据可视化</h3>
-            <img src="@/image/关注者折线图.png" alt="示例图片" style="width:80%; height:auto;" />
-            <img src="@/image/热度折线图.png" alt="示例图片" style="width:80%; height:auto;" />
-            <img src="@/image/总回答数折线图.png" alt="示例图片" style="width:80%; height:auto;" />
-            <ul class="side-content">
-            </ul>
+            <RouterView />
         </aside>
         
         
         <main>
             <h2>Hot Search List</h2>
             <ul class="trend-list">
-              <form @submit.prevent="addTodo">
+             
                 <li v-for="list in jsonData" :key="list.id" class="trend-item">
                     <span class="rank">{{ list.id }}</span>
-                    <a class="topic" :href="'/doc/' + list.hash+'.md'" target="_blank">{{ list.text }}</a>
+                    <router-link class="custom-link" :to="{ name: 'analyse', params: { userId: list.hash } }">{{ list.text }}</router-link>
                   <span class="hotness">🔥 {{ list.hot_value }}</span>
                 </li>
-              </form>
+
             </ul>
         </main>
     </div>
+    
 </template>
 

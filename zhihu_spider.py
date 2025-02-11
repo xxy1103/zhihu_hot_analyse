@@ -20,7 +20,7 @@ def chinese_to_numeric_hash(text: str) -> str:
     numeric_hash = str(int(hex_hash, 16))
     return numeric_hash
 
-cookie = r"SESSIONID=F3wvGTSHXQaVMsPAmmijcgp4y2xH6g3G7RIrwKu7Hbu; JOID=W1EcB0qXSN4coRnVZJogTGOaX0Z9wQ7rVeJBsSTYBJR-6UGRPRnyc3apGdhsi60wXiEFRbNtfMB5WVNk6BbDN8Q=; osd=UVwcAE6dRd4bpRPYZJ0kRm6aWEJ3zA7sUehMsSPcDpl-7kWbMBn1d3ykGd9ogaAwWSUPSLNqeMp0WVRg4hvDMMA=; _xsrf=mkli2TRtNYyVbNeLzH5CbNwB5Gr0D6SI; _zap=27b83296-aef0-4a04-ae4c-3d9179924189; d_c0=APDRR6WVkBmPTkpxJV5GVFfKmK1SfLD5_lA=|1731979634; q_c1=752e14a99e1947878c4c8a582e035f63|1736564683000|1736564683000; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1737302597,1737815283,1737879918,1738160077; z_c0=2|1:0|10:1738726849|4:z_c0|80:MS4xMlVidkNnQUFBQUFtQUFBQVlBSlZUZlJDZ21oT0FfM190bmJJZGNncUZZUlZuUnBBSG5qOGhRPT0=|507ef20541895351609cd75946c172228bac88c970fef382aed022745ee073b9; tst=h; SESSIONID=VF8LKXdMGLJoMPDYJScj6dp98Cr4MEAcoX1VSFGPFrw; JOID=UlEQC0uDPGsN1xHYPItV_H7hUkog3HZeSZxAsHzEeS1vkkGVacqKy2LeFNk51LqgxkCgL5ORKGTEOHl1iKR0huQ=; osd=V1oWA0qGN20F1hTTOoNU-XXnWksl13BWSJlLtnTFfCZpmkCQYsyCymfVEtE40bGmzkGlJJWZKWHPPnF0ja9yjuU=; __zse_ck=004_Fe7TJHiQlzZTUGt7WloV6gLlfIFnUawDQLJZst/QOE3VYE39RR5aGsy/oGBLGKo5Y0os3FVnrBsU=MHEX49P0YtAgi6ROeHQ7Vrb8IneC9T0=keOC2/zupltjjSwbNUJ-K+m+IQxJlHevH6kiYVjUcOvAm7GMHncL1W4L2NkAjwGOwqpTvQXoWPbGuccPMIGAGy4K1kj1ncM+vPF8gNbMGSLnq7pP4Ko2NQnIbARvf268VmIA7SO4GvCznC32q+x3; BEC=92a0fca0e2e4d1109c446d0a990ad863"
+cookie = r"_xsrf=mkli2TRtNYyVbNeLzH5CbNwB5Gr0D6SI; _zap=27b83296-aef0-4a04-ae4c-3d9179924189; d_c0=APDRR6WVkBmPTkpxJV5GVFfKmK1SfLD5_lA=|1731979634; q_c1=752e14a99e1947878c4c8a582e035f63|1736564683000|1736564683000; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1737302597,1737815283,1737879918,1738160077; z_c0=2|1:0|10:1738726849|4:z_c0|80:MS4xMlVidkNnQUFBQUFtQUFBQVlBSlZUZlJDZ21oT0FfM190bmJJZGNncUZZUlZuUnBBSG5qOGhRPT0=|507ef20541895351609cd75946c172228bac88c970fef382aed022745ee073b9; __zse_ck=004_5pJ3ILS5SyxuJJ/HNzgTztqpVZiPYhY8E0cH=nlE1VQXHns/4M7HyuFIaY/gk5Azbsb6asruUMHiwDXUwOQmLqedrOy=v8cNOaxe0FdJkfRsV8coadddkBuo/8sSjV4/-1ZfgGKDmIaXzSJu3CQQcCp37bJVV5D1h8W47lz72YJ6FsWezirEnwLr7C6PtavltLeAWW7Dt0LCkyRzs14OuaggEKyZVgo+a6Jpw3VowZxj7GvZykrSfiGeKjK1pcebp; tst=r; SESSIONID=6Sg9tBQKF10QYVbADRpccs6jdopKfVyQl4yhKWBlJVV; JOID=Vl8VBUtHX0DUblslWUU41qddErlEcgsh6x4acxQFbXeDMQlEH51d6rFpXyRZNUX29fC1AQ_prtJc_Zuhb_NjTAw=; osd=VFsUCkpFW0Hbb1khWEo51KNcHbhGdgou6hwechsEb3OCPghGG5xS67NtXitYN0H3-vG3BQ7mr9BY_JSgbfdiQw0=; BEC=f7bc18b707cd87fca0d61511d015686f"
 zhihu_hot_list = []
 
 def log(message):
@@ -33,6 +33,7 @@ def log(message):
 class name_value:
     name: List[Any] = field(default_factory=list)
     hot_value: List[Any] = field(default_factory=list)
+    
 zhihu_hot_name = name_value()
 
 class Spider:
@@ -40,9 +41,9 @@ class Spider:
         self.headers = headers
 
     def get_response(self, url, params=None):
-        time.sleep(uniform(0.2, 0.5))    # 延迟请求
+        time.sleep(uniform(0.5, 0.8))    # 延迟请求
         try:
-            response = requests.get(url=url, headers=self.headers, params=params)
+            response = requests.get(url=url, headers=self.headers, params=params, timeout=10)
             if response.status_code != 200:
                 self.log(f'Status code: {response.status_code} {url}')
                 return None
@@ -50,9 +51,9 @@ class Spider:
             return response
         except requests.exceptions.ChunkedEncodingError as e:
             self.log(f"ChunkedEncodingError encountered when requesting {url}: {e}. Retrying...")
-            time.sleep(1)  # 重试前延迟一下
+            time.sleep(10)  # 重试前延迟一下
             try:
-                response = requests.get(url=url, headers=self.headers, params=params)
+                response = requests.get(url=url, headers=self.headers, params=params, timeout=10)
                 if response.status_code != 200:
                     self.log(f'Status code: {response.status_code} {url}')
                     return None
@@ -90,15 +91,16 @@ class ZhihuSpider(Spider):
         cnt = 1
         judgement = False  #判断表单是否变化
         for i in data:
-            item = {'排名': None, '标题': None, '描述': None, '链接': None, '图像': None, '热度': None, '关注者': None, '被浏览量': None, '总回答数': None,"是否在榜":True,"是否已生成ai总结":False}
+            item = {'排名': None, '标题': None, '描述': None, '链接': None, '图像': None, '热度': None, '关注者': None, '被浏览量': None, '总回答数': None,"是否在榜":True,"是否已生成ai总结":False,"Hash":None}
             item['排名'] = cnt
             item['标题'] = i['target']['title']
-            item['描述'] = i['target']['excerpt']
+            item['描述'] = i['target']['excerpt'].replace(' ', '\n')
             item['链接'] = 'https://www.zhihu.com/question/{}'.format(i['target']['id'])
             item['图像'] = i['children'][0]['thumbnail']
             item['热度'] = i['detail_text']
             item['关注者'] = i['target']['follower_count']
             item['总回答数'] = i['target']['answer_count']
+            item['Hash'] = chinese_to_numeric_hash(item['标题'])
             r = self.get_response(item['链接'])
             try:
                 tree = html.fromstring(r.text)
@@ -135,7 +137,7 @@ class ZhihuSpider(Spider):
         for item in items_to_remove:
             self.log(f"热搜{item['标题']}已不在榜,准备删除")
             try:
-                os.remove("./index/Social Media Data Analytics Platform/public/doc/{}.md".format(chinese_to_numeric_hash(item['标题'])))
+                os.remove("./index/Social Media Data Analytics Platform/public/doc/{}.md".format(item["Hash"]))
                 self.log(f"已删除热搜{item['标题']}的ai评论总结")
             except Exception as e:
                     self.log(f"删除热搜{item['标题']}的ai评论总结失败, 原因: {e}")
@@ -172,7 +174,10 @@ class ZhihuSpider(Spider):
         answers = {}
         cnt = 1
         for i in data:
-            answers[f'回答{cnt}'] = html.fromstring(i['target']['content']).xpath('string(.)').strip()
+            # 提取所有 p 标签
+            paragraphs = html.fromstring(i['target']['content']).xpath('//p')
+# 对每个 p 标签使用 join 拼接内部的文本，然后用换行符分割不同 p 标签的内容
+            answers[f'回答{cnt}'] = [''.join(p.xpath('.//text()')) for p in paragraphs]
             answers[f'回答{cnt}点赞数'] = i['target']['voteup_count']
             cnt += 1
         return answers

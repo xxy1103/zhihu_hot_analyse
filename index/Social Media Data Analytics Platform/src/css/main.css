@@ -80,14 +80,78 @@ h2 {
     font-size: 0.9rem;
     color: #555;
 }
-a.topic {
+.custom-link {
+    display: block;       /* 改为块级元素 */
+    width: 100%;          /* 占满父容器宽度 */
     color: black;
     text-decoration: none;
+    text-align: left;     /* 左对齐所有行 */
+    padding-left: 10px;   /* 左侧内边距 */
+    padding-top: 5px;    /* 顶部内边距 */
+}
+.custom-link:hover {
+    color: darkblue;
+}
+.question-detail {
+    overflow-wrap: break-word; /* 自动换行 */
+  word-break: break-all; /* 确保长词或 URL 不会撑破容器 */
+  white-space: pre-line; /* 换行符转换为换行 */
+  line-height: 1.8; /* 增大行间距 */
+  margin-bottom: 15px; /* 段落间距 */
+  text-align: justify; /* 两端对齐 */
+  text-indent: 2em; /* 首行缩进 */
   }
-  
-  a.topic:hover {
-    color: blue;
-  }
+.answer-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--border-color);
+}
+
+.answer-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.user-name {
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+.like {
+    color: var(--main-color);
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.answer-content {
+    color: #444;
+    line-height: 1.7;
+    overflow-wrap: break-word; /* 自动换行 */
+  word-break: break-all; /* 确保长词或 URL 不会撑破容器 */
+  white-space: pre-line; /* 换行符转换为换行 */
+  line-height: 1.8; /* 增大行间距 */
+  margin-bottom: 15px; /* 段落间距 */
+  text-align: justify; /* 两端对齐 */
+  text-indent: 2em; /* 首行缩进 */
+    margin-bottom: 15px;
+}
 
   /* 当屏幕宽度小于 768px 时，变为上下结构 */
 @media (max-width: 768px) {
