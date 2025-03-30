@@ -14,8 +14,10 @@ import pandas as pd
 import ast
 
 global key
-
-
+cookie = r"_xsrf=mkli2TRtNYyVbNeLzH5CbNwB5Gr0D6SI; _zap=27b83296-aef0-4a04-ae4c-3d9179924189; d_c0=APDRR6WVkBmPTkpxJV5GVFfKmK1SfLD5_lA=|1731979634; q_c1=752e14a99e1947878c4c8a582e035f63|1736564683000|1736564683000; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1737302597,1737815283,1737879918,1738160077; z_c0=2|1:0|10:1742628512|4:z_c0|80:MS4xMlVidkNnQUFBQUFtQUFBQVlBSlZUYTFac1doZFd5SS1yWno4TktuTGEzQTFMRGRpTnJVby1nPT0=|70b029da16297402eef905ee4ac37a703c7f160d1419727e85fd56dc095a6ed2; __zse_ck=004_xOlE2Srhcc=JQ0Z8ctSqI1SeP/rPrdg6ltq0fzAyk=eAznxph9ypqsbqmZ2gqjwFzblzQmKTDOndgCDmDLayITjeaHlLcmDzrvJDyggrJQRxPEuhXQgL/raTfbPIu4/r-u38msjQnq7VMBEKMRIyykFIYzKVNF7PlUFAbEC+qHzgMCejTzeZwHRtq1txo2jOVxHQ6CwfNEfCADBUNnpUwvdq7thuquEUg3wtvyRRfCMHFfRpai0TttZjocAisSazWf/PAKC3oiPqmiIIKccTOUIqa6dP+3UhKuC3qjNBfZTE=; tst=h; BEC=8ce9e721fafad59a55ed220f1ad7f253; SESSIONID=CdJ9yt8O9SHdAw953HqacCkyV96OGfOViKqNb8wHhBP; JOID=U1sUA0jr6u_NbuZHBeqKfbxfrNwcqoyk9xWQfUvQu6WoLJN8Mi9fCqtu5kQHgm0Su6V-QnloQxE4Gbpdjb7fvOM=; osd=UFoQAEzo6-vOauVGAemOfr1br9gfq4in8xaReUjUuKSsL5d_MytcDqhv4kcDgWwWuKF9Q31rRxI5HblZjr_bv-c="
+header = {'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+          'cookie':cookie,
+          }
 
 def zhihu_update(zhihu):
     global key
@@ -27,7 +29,7 @@ def zhihu_update(zhihu):
         return False
     if change == True:
         try:
-            draw_chart(f'./data/csv/zhihu_hot{key}.csv', r'C:\Windows\Fonts\simhei.ttf', './index/Social Media Data Analytics Platform/')
+            #draw_chart(f'./data/csv/zhihu_hot{key}.csv', r'C:\Windows\Fonts\simhei.ttf', './index/Social Media Data Analytics Platform/')
             log("已更新图表")
         except Exception as e:
             log("更新图表失败，错误信息：{}".format(e))
@@ -78,7 +80,7 @@ if __name__ == '__main__':
     else:
         key = 0
     try:
-        zhihu = ZhihuSpider()
+        zhihu = ZhihuSpider(headers=header)
         j =  zhihu_update(zhihu)
         log("程序初始化成功！！进入稳定运行阶段：")
     except Exception as e:

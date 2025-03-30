@@ -8,7 +8,46 @@ from dataclasses import dataclass, field
 from typing import List, Any
 import os
 import hashlib
+from bs4 import BeautifulSoup as bf
+import urllib.request
+from threading import Thread, Lock
+import queue
+import socket
+import re
+# 设置超时和重试参数
+MAX_RETRIES = 3
+TIMEOUT = 10
 
+# 创建全局队列和锁
+result_queue = queue.Queue()
+print_lock = Lock()
+data_lock = Lock()
+make_dir_lock = Lock()
+
+
+zhihu_hot_list = []
+cookie = r"_xsrf=mkli2TRtNYyVbNeLzH5CbNwB5Gr0D6SI; _zap=27b83296-aef0-4a04-ae4c-3d9179924189; d_c0=APDRR6WVkBmPTkpxJV5GVFfKmK1SfLD5_lA=|1731979634; q_c1=752e14a99e1947878c4c8a582e035f63|1736564683000|1736564683000; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1737302597,1737815283,1737879918,1738160077; z_c0=2|1:0|10:1742628512|4:z_c0|80:MS4xMlVidkNnQUFBQUFtQUFBQVlBSlZUYTFac1doZFd5SS1yWno4TktuTGEzQTFMRGRpTnJVby1nPT0=|70b029da16297402eef905ee4ac37a703c7f160d1419727e85fd56dc095a6ed2; __zse_ck=004_xOlE2Srhcc=JQ0Z8ctSqI1SeP/rPrdg6ltq0fzAyk=eAznxph9ypqsbqmZ2gqjwFzblzQmKTDOndgCDmDLayITjeaHlLcmDzrvJDyggrJQRxPEuhXQgL/raTfbPIu4/r-u38msjQnq7VMBEKMRIyykFIYzKVNF7PlUFAbEC+qHzgMCejTzeZwHRtq1txo2jOVxHQ6CwfNEfCADBUNnpUwvdq7thuquEUg3wtvyRRfCMHFfRpai0TttZjocAisSazWf/PAKC3oiPqmiIIKccTOUIqa6dP+3UhKuC3qjNBfZTE=; tst=h; BEC=8ce9e721fafad59a55ed220f1ad7f253; SESSIONID=CdJ9yt8O9SHdAw953HqacCkyV96OGfOViKqNb8wHhBP; JOID=U1sUA0jr6u_NbuZHBeqKfbxfrNwcqoyk9xWQfUvQu6WoLJN8Mi9fCqtu5kQHgm0Su6V-QnloQxE4Gbpdjb7fvOM=; osd=UFoQAEzo6-vOauVGAemOfr1br9gfq4in8xaReUjUuKSsL5d_MytcDqhv4kcDgWwWuKF9Q31rRxI5HblZjr_bv-c="
+header = {'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+          'cookie':cookie,
+          }
+def log(message):
+        """线程安全的打印函数"""
+        with print_lock:
+            with open('data/log/log.txt', 'a', encoding='utf-8') as f:
+                f.write(f'{message}\n')
+def request_with_retry(url, max_retries=MAX_RETRIES, timeout=TIMEOUT):
+    """带有重试机制的请求函数"""
+    for attempt in range(max_retries):
+        global header
+        try:
+            request = urllib.request.Request(url, headers = header)
+            response = urllib.request.urlopen(request, timeout=timeout)
+            return response
+        except (urllib.error.URLError, socket.timeout) as e:
+            log(f"尝试 {attempt+1}/{max_retries} 失败: {url} - {str(e)}")
+            if attempt == max_retries - 1:
+                raise
+            time.sleep(2)  # 失败后等待2秒再重试
 def chinese_to_numeric_hash(text: str) -> str:
     """
     将输入的汉字字符串使用 SHA-256 哈希后，
@@ -19,14 +58,6 @@ def chinese_to_numeric_hash(text: str) -> str:
     # 将16进制字符串转换为一个大整数，再转为十进制字符串
     numeric_hash = str(int(hex_hash, 16))
     return numeric_hash
-
-cookie = r"_xsrf=mkli2TRtNYyVbNeLzH5CbNwB5Gr0D6SI; _zap=27b83296-aef0-4a04-ae4c-3d9179924189; d_c0=APDRR6WVkBmPTkpxJV5GVFfKmK1SfLD5_lA=|1731979634; q_c1=752e14a99e1947878c4c8a582e035f63|1736564683000|1736564683000; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1737302597,1737815283,1737879918,1738160077; z_c0=2|1:0|10:1738726849|4:z_c0|80:MS4xMlVidkNnQUFBQUFtQUFBQVlBSlZUZlJDZ21oT0FfM190bmJJZGNncUZZUlZuUnBBSG5qOGhRPT0=|507ef20541895351609cd75946c172228bac88c970fef382aed022745ee073b9; __zse_ck=004_5pJ3ILS5SyxuJJ/HNzgTztqpVZiPYhY8E0cH=nlE1VQXHns/4M7HyuFIaY/gk5Azbsb6asruUMHiwDXUwOQmLqedrOy=v8cNOaxe0FdJkfRsV8coadddkBuo/8sSjV4/-1ZfgGKDmIaXzSJu3CQQcCp37bJVV5D1h8W47lz72YJ6FsWezirEnwLr7C6PtavltLeAWW7Dt0LCkyRzs14OuaggEKyZVgo+a6Jpw3VowZxj7GvZykrSfiGeKjK1pcebp; tst=r; SESSIONID=6Sg9tBQKF10QYVbADRpccs6jdopKfVyQl4yhKWBlJVV; JOID=Vl8VBUtHX0DUblslWUU41qddErlEcgsh6x4acxQFbXeDMQlEH51d6rFpXyRZNUX29fC1AQ_prtJc_Zuhb_NjTAw=; osd=VFsUCkpFW0Hbb1khWEo51KNcHbhGdgou6hwechsEb3OCPghGG5xS67NtXitYN0H3-vG3BQ7mr9BY_JSgbfdiQw0=; BEC=f7bc18b707cd87fca0d61511d015686f"
-zhihu_hot_list = []
-
-def log(message):
-    with open('data/log/log.txt', 'a', encoding='utf-8') as f:
-        f.write(f'{message}\n')
-
 
 
 @dataclass
@@ -71,65 +102,100 @@ class Spider:
         df.to_csv(f'{name}.csv', index=False, encoding='utf-8')
 
     def log(self, message):
-        with open('data/log/log.txt', 'a', encoding='utf-8') as f:
-            f.write(f'{message}\n')
+        """线程安全的打印函数"""
+        with print_lock:
+            with open('data/log/log.txt', 'a', encoding='utf-8') as f:
+                f.write(f'{message}\n')
 
+def get_info(item):
+    answer_url = item['链接']
+    html = bf(request_with_retry(answer_url).read(), 'html.parser')
+    QuestionHeader_side = html.find('div', class_='QuestionHeader-side')
+    if QuestionHeader_side:
+        item['关注者'] = QuestionHeader_side.find_all('strong',class_ = "NumberBoard-itemValue")[0].get_text()
+        item['被浏览量'] = QuestionHeader_side.find_all('strong',class_ = "NumberBoard-itemValue")[1].get_text()
+    header_text = html.find('h4', class_='List-headerText')
+    if header_text:
+        item['总回答数'] = header_text.get_text().split(' ')[0]
+    
+    answer_html = html.find_all('div', class_='List-item')
+    for i in range(len(answer_html)):
+        item[f"回答{i+1}"] = []
+        span = answer_html[i].find('span', class_='RichText ztext CopyrightRichText-richText css-ob6uua')
+        if span:
+            # 获取所有p标签，将每个p标签的文本作为数组的一个元素
+            paragraphs = span.find_all('p')
+            item[f"回答{i+1}"] = [p.get_text() for p in paragraphs]
+
+        # 修改获取点赞数的方法
+        vote_button = answer_html[i].find('button', {'aria-label': lambda x: x and '赞同' in x})
+        if vote_button:
+            # 从aria-label属性中提取数字，格式为"赞同 1107"
+            aria_label = vote_button.get('aria-label', '')
+            match = re.search(r'赞同\s+(\d+)', aria_label)
+            if match:
+                item[f"回答{i+1}点赞数"] = match.group(1)
+            else:
+                # 尝试从按钮文本中获取，格式为"赞同 1107"
+                button_text = vote_button.get_text().strip()
+                match = re.search(r'赞同\s+(\d+)', button_text)
+                if match:
+                    item[f"回答{i+1}点赞数"] = match.group(1)
+                else:
+                    item[f"回答{i+1}点赞数"] = "0"
+        else:
+            item[f"回答{i+1}点赞数"] = "0"
+
+    return item
+    
+    
 class ZhihuSpider(Spider):
-    def __init__(self):
-        self.headers = {
-                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-                'cookie': cookie
-                }
+    def __init__(self, headers=None):
+        super().__init__(headers=headers)
 
     def get_hot(self):
         start = time.perf_counter()
         #以下为json法
-        url = "https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total"
-        res = self.get_response(url)
-        res.encoding = 'utf-8'
-        data = res.json()["data"]
-        cnt = 1
+        url = "https://www.zhihu.com/hot"
+        res = request_with_retry(url)
+        html = bf(res.read(), 'html.parser')
+        HotItem = html.find_all('section', class_='HotItem')
         judgement = False  #判断表单是否变化
-        for i in data:
+        for i in range(len(HotItem)):
             item = {'排名': None, '标题': None, '描述': None, '链接': None, '图像': None, '热度': None, '关注者': None, '被浏览量': None, '总回答数': None,"是否在榜":True,"是否已生成ai总结":False,"Hash":None}
-            item['排名'] = cnt
-            item['标题'] = i['target']['title']
-            item['描述'] = i['target']['excerpt'].replace(' ', '\n')
-            item['链接'] = 'https://www.zhihu.com/question/{}'.format(i['target']['id'])
-            item['图像'] = i['children'][0]['thumbnail']
-            item['热度'] = i['detail_text']
-            item['关注者'] = i['target']['follower_count']
-            item['总回答数'] = i['target']['answer_count']
+            item['排名'] = i + 1
+            item['标题'] = HotItem[i].find('h2').get_text()
+            item['链接'] = HotItem[i].find('a')['href']
+            raw_hot = HotItem[i].find('div', class_='HotItem-metrics').get_text()
+            hot_match = re.search(r'(\d+(?:\.\d+)?)\s*(\w+)热度', raw_hot)
+            if hot_match:
+                hot_value = hot_match.group(1)  # 数字部分，如 "1644"
+                hot_unit = hot_match.group(2)   # 单位部分，如 "万"
+                item['热度'] = f"{hot_value} 万热度"# 只保留数字部分
+            tmp = HotItem[i].find('p',class_='HotItem-excerpt')
+            if tmp:
+                item['描述'] = tmp.get_text()
+            img = HotItem[i].find('img')
+            if img:
+                item['图像'] = img['src']
             item['Hash'] = chinese_to_numeric_hash(item['标题'])
-            r = self.get_response(item['链接'])
-            try:
-                tree = html.fromstring(r.text)
-                item['被浏览量'] = int(tree.xpath('//div[@class="NumberBoard-item"]//strong[@class="NumberBoard-itemValue"]/text()')[0].replace(',', ''))
-            except:
-                pass
             judge = False   #判断是否在榜
             for j in zhihu_hot_list:
                 if item['标题'] == j['标题']:
                     j["排名"] = item["排名"]
-                    j["标题"] = item["标题"]
                     j["描述"] = item["描述"]
                     j["链接"] = item["链接"]
                     j["图像"] = item["图像"]
                     j["热度"] = item["热度"]
-                    j["关注者"] = item["关注者"]
-                    j["被浏览量"] = item["被浏览量"]
-                    j["总回答数"] = item["总回答数"]
                     j["是否在榜"] = True
                     judge = True #已经在榜了，不再添加
                     break
             #不在榜的话，添加回答
             if judge == False:
-                answers = self.get_answer(i['target']['id'])
-                item.update(answers)
+                item = get_info(item)
                 judgement = True
                 zhihu_hot_list.append(item)
                 self.log(f"已添加新热搜：{item['标题']}")
-            cnt += 1
         items_to_remove = []
         for i in zhihu_hot_list:
             if not i["是否在榜"]:
@@ -156,31 +222,6 @@ class ZhihuSpider(Spider):
         zhihu_hot_name.hot_value = [i['热度'] for i in zhihu_hot_list]
         self.log('Running time: %.6fs, Local time: %s'%(time.perf_counter() - start, time.ctime()))
         return judgement
-
-
-    def get_answer(self, id):
-        real_url = f'https://www.zhihu.com/api/v4/questions/{id}/feeds?'
-        params={
-                'include': 'data[*].is_normal,admin_closed_comment,reward_info,is_collapsed,annotation_action,annotation_detail,collapse_reason,is_sticky,collapsed_by,suggest_edit,comment_count,can_comment,content,editable_content,attachment,voteup_count,reshipment_settings,comment_permission,created_time,updated_time,review_info,relevant_info,question,excerpt,is_labeled,paid_info,paid_info_content,reaction_instruction,relationship.is_authorized,is_author,voting,is_thanked,is_nothelp;data[*].author.follower_count,vip_info,kvip_info,badge[*].topics;data[*].settings.table_of_content.enabled',
-                'limit': '5',   # 爬取回答的个数
-                'offset': '0',
-                'order': 'default',
-                'platform': 'desktop',
-                'ws_qiangzhisafe': '1'
-                }
-        res = self.get_response(url = real_url, params = params)
-        res.encoding = 'utf-8'
-        data = res.json()['data']
-        answers = {}
-        cnt = 1
-        for i in data:
-            # 提取所有 p 标签
-            paragraphs = html.fromstring(i['target']['content']).xpath('//p')
-# 对每个 p 标签使用 join 拼接内部的文本，然后用换行符分割不同 p 标签的内容
-            answers[f'回答{cnt}'] = [''.join(p.xpath('.//text()')) for p in paragraphs]
-            answers[f'回答{cnt}点赞数'] = i['target']['voteup_count']
-            cnt += 1
-        return answers
 
     def run(self,key=0):
         change = self.get_hot()    #返回是否有热搜变化

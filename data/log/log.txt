@@ -1,1158 +1,135 @@
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/api/v4/questions/11843666102/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：比亚迪智能化战略发布会上王传福宣布「比亚迪全系车型将搭载高阶智驾技术」，会对中国汽车行业带来哪些影响？
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/api/v4/questions/11717813322/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：哪吒两个哥哥叫金吒、木吒，他为什么不叫水吒？
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/api/v4/questions/11837808901/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：《哪吒 2》疑遭「偷票房」，观众称电影票为手写版，什么样的行为算偷票房？影院应承担哪些法律责任？
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/api/v4/questions/11848696328/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：网传哪吒2把急急如律令译成quickly quickly biubiubiu，官方辟谣，如何翻译合适？
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/api/v4/questions/11879236724/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：美亚利桑那州一机场两飞机在地面发生碰撞，造成至少 1 人死亡，美国飞机为何频繁出事？到底哪里出了问题？
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/api/v4/questions/11280054840/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：饺子导演在《哪吒》系列之前从来没拍过长片电影，为啥一出手就是王炸？
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/api/v4/questions/11738696226/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：一医院称禁止非医学需要终止妊娠，13 周后部分情况有证明可引产，从法律和医学角度看，医院有这种权利吗？
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/api/v4/questions/9987220611/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：为什么很多公司因为「降本增效」而倒闭了？
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/api/v4/questions/11820675692/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：《哪吒 2 》爆火后，多地争相给哪吒「上户口」，你最认可哪种说法？
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/api/v4/questions/11848486207/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何看待《哪吒之魔童闹海》的预测票房上升至 142 亿？
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/api/v4/questions/11216765703/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何看待「荷兰代尔夫特理工大学赵翰欣博士举报导师胁迫霸凌，并被打击报复甚至开除」事件？
-Get https://www.zhihu.com/question/445435242
-Get https://www.zhihu.com/api/v4/questions/445435242/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：《战地1》游戏环境怎么样？
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/api/v4/questions/661686472/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：农村出身的大学生如今真的有出路吗?
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/api/v4/questions/11862777932/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：世界人口减少到10亿，甚至2亿，人类还会为了资源而争斗不休吗？
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/api/v4/questions/11765554531/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：概念领先中国至少十年，为何美国六代机至今仍只能停留在纸面上？
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/api/v4/questions/6684171586/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：为什么很多北方方言词汇无法考证本字？
-Get https://www.zhihu.com/question/586456922
-Get https://www.zhihu.com/api/v4/questions/586456922/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：《是，大臣》S3E04里汉弗莱一行人为何一定要在库朗喝酒？
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/api/v4/questions/11785781178/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：特朗普签署行政令，对所有钢、铝进口加征 25% 的关税，原因是什么？会对相关产业带来什么影响？
-Get https://www.zhihu.com/question/655452316
-Get https://www.zhihu.com/api/v4/questions/655452316/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：二战期间，美国造了155艘航母，现在为何造一艘航母都费力？
-Get https://www.zhihu.com/question/11637935012
-Get https://www.zhihu.com/api/v4/questions/11637935012/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何看拳头宣布取消免费的海克斯宝箱，以后想有皮肤只能靠买？
-Get https://www.zhihu.com/question/10315664948
-Get https://www.zhihu.com/api/v4/questions/10315664948/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：面试官问我期望工资，我说 8000 元面试官表示达不到，还问我最低线是多少，我能说吗？
-Get https://www.zhihu.com/question/8906701443
-Get https://www.zhihu.com/api/v4/questions/8906701443/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：为什么几乎所有历史模拟游戏都无法模拟大国的衰落？
-Get https://www.zhihu.com/question/11793286827
-Get https://www.zhihu.com/api/v4/questions/11793286827/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：宠物狗送潘宏处驯化成网红，主人拿回狗狗被要求不准用狗带货接广告，违约需赔偿百万元，这一要求合理吗？
-Get https://www.zhihu.com/question/11703106972
-Get https://www.zhihu.com/api/v4/questions/11703106972/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何看待雷军开小米 YU7 实测一千三百公里，中间充电 2 次？这是什么水平？
-Get https://www.zhihu.com/question/597255604
-Get https://www.zhihu.com/api/v4/questions/597255604/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：贾母说宝玉不开心就打人骂人，也不要摔他的玉，如果他真的打（毒打)鸳鸯袭人等。贾母还会由他打吗？
-Get https://www.zhihu.com/question/11770331780
-Get https://www.zhihu.com/api/v4/questions/11770331780/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：「丽江机场值机员撕登机牌」调查结果公布，两名涉事人员待岗，具体情况如何？暴露出什么问题？
-Get https://www.zhihu.com/question/319583421
-Get https://www.zhihu.com/api/v4/questions/319583421/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：有哪些十分令人惋惜的已灭绝动物？
-Get https://www.zhihu.com/question/11787078887
-Get https://www.zhihu.com/api/v4/questions/11787078887/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：存 2 年不如存 1 年，如何看待银行利率出现罕见倒挂？都有哪些原因？
-Get https://www.zhihu.com/question/11789513595
-Get https://www.zhihu.com/api/v4/questions/11789513595/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：林诗栋反超王楚钦成为男单世界排名第一，如何评价林诗栋近期的比赛表现？林诗栋登顶对国乒意味着什么？
-Get https://www.zhihu.com/question/661862920
-Get https://www.zhihu.com/api/v4/questions/661862920/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何看待“历尽艰辛的飞升者，成了围剿孙悟空的十万天兵之一”这句话？
-Running time: 76.547217s, Local time: Tue Feb 11 11:23:42 2025
+已添加新热搜：缅甸 7.9 级强震已造成该国所有受灾地区 1644 人死亡，目前救援情况如何？有哪些难点？
+已添加新热搜：魔爪功能饮料到底有多恐怖？
+已添加新热搜：韩国男团「门童」BOYNEXTDOOR 泰国演唱会因地震临时取消，粉丝大量滞留集体脱粉，如何评价？
+已添加新热搜：罪案剧《棋士》中有哪些细思极恐的细节？
+已添加新热搜：于东来透露胖东来员工平均工资 9886 元，店长级月薪高达 78058 元，怎样看这一水平？
+已添加新热搜：超火「甲亢哥」直播中国行，对美国和世界网友有哪些影响？对文化传播和交流有哪些影响？
+已添加新热搜：马斯克让 xAI 以全股票交易方式收购 X，两者估值 800 亿和 330 亿美元，商业上如何解读？
+已添加新热搜：杭州上学的内蒙女孩一篇作文《旧轨还乡》火了，这篇作文为什么会火？你读完有哪些感想？
+已添加新热搜：女子玩切水果游戏 1 个月瘦 10 斤，真这么管用吗？是否有风险？你还有哪些既能娱乐又能减肥的妙招？
+已添加新热搜：王宝强新剧《棋士》结构与美剧《绝命毒师》相似，是否算抄袭？
+已添加新热搜：关于「关羽反对黄忠位列五虎」的问题，《新三国》的处理方式是否好于《三国演义》原著？
+已添加新热搜：《新还珠格格》重映收视第一，为什么它还会这么受欢迎？你对这部剧有哪些记忆？
+已添加新热搜：《浪姐 6》是真的「押错宝」吗？李晟的翻红是不是芒果台复制「王心凌效应」的成功尝试？
+已添加新热搜：人类明明是顶级杂食动物，胃酸接近食腐动物，为什么连生肉都不敢吃？
+已添加新热搜：未来高层住宅或将越来越少，密度高、电梯依赖强、维护成本高等问题逐渐暴露，该怎样解决？你还会买高层吗？
+已添加新热搜：为什么销冠一般最先离职？
+已添加新热搜：从心理学角度看，嫉妒心理的根源是什么？
+已添加新热搜：中国肥胖率最高的省是河北，北方地区的肥胖率普遍高于南方，是什么原因让北方人更容易发胖？
+已添加新热搜：小米和比亚迪前后脚巨额融资，透露哪些信息？
+已添加新热搜：GPT-4o 目前只能生成吉卜力画风的图片吗？还能生成什么风格的图片？
+已添加新热搜：52 岁网红面筋哥因病离世，因歌曲《烤面筋》走红，你对他有哪些记忆？
+已添加新热搜：「壹号土猪肉」的「壹号土」被曝是注册商标，该公司使用「壹号土猪」标识做宣传合适吗？
+已添加新热搜：Manus 正式推出付费计划，Manus Starter 套餐定价 39 美元 / 月，如何评价这一举措？
+已添加新热搜：深圳官宣房票制度，四大一线城市均已开始探索，什么是房票制度？能激活更多购房需求吗？
+已添加新热搜：高中物理书上的万有引力公式推导严谨吗？
+已添加新热搜：英菲尼迪起诉前代言人王力宏，双方的争议点是什么？解约已过两年多，英菲尼迪为什么选择此时起诉？
+已添加新热搜：完全拆除古建筑原址重建一个仿古建筑还算保护吗？
+已添加新热搜：外包保洁员主动投靠境外情报机关，造成重大失泄密，其将承担怎样的责任？工作中要从哪些环节提高保密意识？
+已添加新热搜：战鹰围棋能不能下过王宝强饰演的崔业?
+已添加新热搜：在小镇生活是一种怎样的体验？
+Running time: 22.021897s, Local time: Sun Mar 30 08:44:41 2025
 已更新图表
-已更新ai主页分析
-已分析第1条热搜比亚迪智能化战略发布会上王传福宣布「比亚迪全系车型将搭载高阶智驾技术」，会对中国汽车行业带来哪些影响？的热门评论
-已分析第2条热搜哪吒两个哥哥叫金吒、木吒，他为什么不叫水吒？的热门评论
-已分析第3条热搜《哪吒 2》疑遭「偷票房」，观众称电影票为手写版，什么样的行为算偷票房？影院应承担哪些法律责任？的热门评论
-已分析第4条热搜网传哪吒2把急急如律令译成quickly quickly biubiubiu，官方辟谣，如何翻译合适？的热门评论
-已分析第5条热搜美亚利桑那州一机场两飞机在地面发生碰撞，造成至少 1 人死亡，美国飞机为何频繁出事？到底哪里出了问题？的热门评论
-已分析第6条热搜饺子导演在《哪吒》系列之前从来没拍过长片电影，为啥一出手就是王炸？的热门评论
-已分析第7条热搜一医院称禁止非医学需要终止妊娠，13 周后部分情况有证明可引产，从法律和医学角度看，医院有这种权利吗？的热门评论
-已分析第8条热搜为什么很多公司因为「降本增效」而倒闭了？的热门评论
-已分析第9条热搜《哪吒 2 》爆火后，多地争相给哪吒「上户口」，你最认可哪种说法？的热门评论
-已分析第10条热搜如何看待《哪吒之魔童闹海》的预测票房上升至 142 亿？的热门评论
-已分析第11条热搜如何看待「荷兰代尔夫特理工大学赵翰欣博士举报导师胁迫霸凌，并被打击报复甚至开除」事件？的热门评论
-已分析第12条热搜《战地1》游戏环境怎么样？的热门评论
-已分析第13条热搜农村出身的大学生如今真的有出路吗?的热门评论
-已分析第14条热搜世界人口减少到10亿，甚至2亿，人类还会为了资源而争斗不休吗？的热门评论
-已分析第15条热搜概念领先中国至少十年，为何美国六代机至今仍只能停留在纸面上？的热门评论
-已分析第16条热搜为什么很多北方方言词汇无法考证本字？的热门评论
-已分析第17条热搜《是，大臣》S3E04里汉弗莱一行人为何一定要在库朗喝酒？的热门评论
-已分析第18条热搜特朗普签署行政令，对所有钢、铝进口加征 25% 的关税，原因是什么？会对相关产业带来什么影响？的热门评论
-已分析第19条热搜二战期间，美国造了155艘航母，现在为何造一艘航母都费力？的热门评论
-已分析第20条热搜如何看拳头宣布取消免费的海克斯宝箱，以后想有皮肤只能靠买？的热门评论
-已分析第21条热搜面试官问我期望工资，我说 8000 元面试官表示达不到，还问我最低线是多少，我能说吗？的热门评论
-已分析第22条热搜为什么几乎所有历史模拟游戏都无法模拟大国的衰落？的热门评论
-已分析第23条热搜宠物狗送潘宏处驯化成网红，主人拿回狗狗被要求不准用狗带货接广告，违约需赔偿百万元，这一要求合理吗？的热门评论
-已分析第24条热搜如何看待雷军开小米 YU7 实测一千三百公里，中间充电 2 次？这是什么水平？的热门评论
-已分析第25条热搜贾母说宝玉不开心就打人骂人，也不要摔他的玉，如果他真的打（毒打)鸳鸯袭人等。贾母还会由他打吗？的热门评论
-已分析第26条热搜「丽江机场值机员撕登机牌」调查结果公布，两名涉事人员待岗，具体情况如何？暴露出什么问题？的热门评论
-已分析第27条热搜有哪些十分令人惋惜的已灭绝动物？的热门评论
-已分析第28条热搜存 2 年不如存 1 年，如何看待银行利率出现罕见倒挂？都有哪些原因？的热门评论
-已分析第29条热搜林诗栋反超王楚钦成为男单世界排名第一，如何评价林诗栋近期的比赛表现？林诗栋登顶对国乒意味着什么？的热门评论
-已分析第30条热搜如何看待“历尽艰辛的飞升者，成了围剿孙悟空的十万天兵之一”这句话？的热门评论
-已更新所有ai评论总结
+更新ai主页分析失败，错误信息：Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+更新所有ai评论总结失败，错误信息：Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
 程序初始化成功！！进入稳定运行阶段：
 Server running on http://127.0.0.1:5251/
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/api/v4/questions/11820655351/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：哈里斯拒绝给东契奇 3.5 亿顶薪，拒绝的原因是什么？
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/586456922
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11101207396
-Get https://www.zhihu.com/api/v4/questions/11101207396/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：现在大家都是一部手机用几年啊?
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/11637935012
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/655452316
-Get https://www.zhihu.com/question/445435242
-Get https://www.zhihu.com/question/10315664948
-Get https://www.zhihu.com/question/8906701443
-Get https://www.zhihu.com/question/11793286827
-Get https://www.zhihu.com/question/11703106972
-Get https://www.zhihu.com/question/597255604
-Get https://www.zhihu.com/question/11787078887
-Get https://www.zhihu.com/question/11770331780
-Get https://www.zhihu.com/question/319583421
-热搜林诗栋反超王楚钦成为男单世界排名第一，如何评价林诗栋近期的比赛表现？林诗栋登顶对国乒意味着什么？已不在榜,准备删除
-已删除热搜林诗栋反超王楚钦成为男单世界排名第一，如何评价林诗栋近期的比赛表现？林诗栋登顶对国乒意味着什么？的ai评论总结
-已删除热搜林诗栋反超王楚钦成为男单世界排名第一，如何评价林诗栋近期的比赛表现？林诗栋登顶对国乒意味着什么？
-热搜如何看待“历尽艰辛的飞升者，成了围剿孙悟空的十万天兵之一”这句话？已不在榜,准备删除
-已删除热搜如何看待“历尽艰辛的飞升者，成了围剿孙悟空的十万天兵之一”这句话？的ai评论总结
-已删除热搜如何看待“历尽艰辛的飞升者，成了围剿孙悟空的十万天兵之一”这句话？
-Running time: 41.458579s, Local time: Tue Feb 11 11:44:49 2025
+更新失败,等待下次更新，错误信息：'NoneType' object has no attribute 'get_text'
+程序初始化成功！！进入稳定运行阶段：
+更新失败,等待下次更新，错误信息：'NoneType' object has no attribute 'get_text'
+程序初始化成功！！进入稳定运行阶段：
+已添加新热搜：缅甸 7.9 级强震已造成该国所有受灾地区 1644 人死亡，目前救援情况如何？有哪些难点？
+已添加新热搜：魔爪功能饮料到底有多恐怖？
+已添加新热搜：韩国男团「门童」BOYNEXTDOOR 泰国演唱会因地震临时取消，粉丝大量滞留集体脱粉，如何评价？
+已添加新热搜：罪案剧《棋士》中有哪些细思极恐的细节？
+已添加新热搜：于东来透露胖东来员工平均工资 9886 元，店长级月薪高达 78058 元，怎样看这一水平？
+已添加新热搜：超火「甲亢哥」直播中国行，对美国和世界网友有哪些影响？对文化传播和交流有哪些影响？
+已添加新热搜：马斯克让 xAI 以全股票交易方式收购 X，两者估值 800 亿和 330 亿美元，商业上如何解读？
+已添加新热搜：杭州上学的内蒙女孩一篇作文《旧轨还乡》火了，这篇作文为什么会火？你读完有哪些感想？
+已添加新热搜：女子玩切水果游戏 1 个月瘦 10 斤，真这么管用吗？是否有风险？你还有哪些既能娱乐又能减肥的妙招？
+已添加新热搜：关于「关羽反对黄忠位列五虎」的问题，《新三国》的处理方式是否好于《三国演义》原著？
+已添加新热搜：王宝强新剧《棋士》结构与美剧《绝命毒师》相似，是否算抄袭？
+更新失败,等待下次更新，错误信息：'NoneType' object has no attribute 'get_text'
+程序初始化成功！！进入稳定运行阶段：
+已添加新热搜：缅甸 7.9 级强震已造成该国所有受灾地区 1644 人死亡，目前救援情况如何？有哪些难点？
+已添加新热搜：魔爪功能饮料到底有多恐怖？
+已添加新热搜：韩国男团「门童」BOYNEXTDOOR 泰国演唱会因地震临时取消，粉丝大量滞留集体脱粉，如何评价？
+已添加新热搜：罪案剧《棋士》中有哪些细思极恐的细节？
+已添加新热搜：于东来透露胖东来员工平均工资 9886 元，店长级月薪高达 78058 元，怎样看这一水平？
+已添加新热搜：超火「甲亢哥」直播中国行，对美国和世界网友有哪些影响？对文化传播和交流有哪些影响？
+已添加新热搜：马斯克让 xAI 以全股票交易方式收购 X，两者估值 800 亿和 330 亿美元，商业上如何解读？
+已添加新热搜：杭州上学的内蒙女孩一篇作文《旧轨还乡》火了，这篇作文为什么会火？你读完有哪些感想？
+已添加新热搜：女子玩切水果游戏 1 个月瘦 10 斤，真这么管用吗？是否有风险？你还有哪些既能娱乐又能减肥的妙招？
+已添加新热搜：关于「关羽反对黄忠位列五虎」的问题，《新三国》的处理方式是否好于《三国演义》原著？
+已添加新热搜：王宝强新剧《棋士》结构与美剧《绝命毒师》相似，是否算抄袭？
+已添加新热搜：缅甸 7.9 级强震已造成该国所有受灾地区 1644 人死亡，目前救援情况如何？有哪些难点？
+已添加新热搜：魔爪功能饮料到底有多恐怖？
+已添加新热搜：罪案剧《棋士》中有哪些细思极恐的细节？
+已添加新热搜：于东来透露胖东来员工平均工资 9886 元，店长级月薪高达 78058 元，怎样看这一水平？
+已添加新热搜：韩国男团「门童」BOYNEXTDOOR 泰国演唱会因地震临时取消，粉丝大量滞留集体脱粉，如何评价？
+已添加新热搜：超火「甲亢哥」直播中国行，对美国和世界网友有哪些影响？对文化传播和交流有哪些影响？
+已添加新热搜：马斯克让 xAI 以全股票交易方式收购 X，两者估值 800 亿和 330 亿美元，商业上如何解读？
+已添加新热搜：杭州上学的内蒙女孩一篇作文《旧轨还乡》火了，这篇作文为什么会火？你读完有哪些感想？
+已添加新热搜：女子玩切水果游戏 1 个月瘦 10 斤，真这么管用吗？是否有风险？你还有哪些既能娱乐又能减肥的妙招？
+已添加新热搜：关于「关羽反对黄忠位列五虎」的问题，《新三国》的处理方式是否好于《三国演义》原著？
+已添加新热搜：王宝强新剧《棋士》结构与美剧《绝命毒师》相似，是否算抄袭？
+已添加新热搜：缅甸 7.9 级强震已造成该国所有受灾地区 1644 人死亡，目前救援情况如何？有哪些难点？
+已添加新热搜：魔爪功能饮料到底有多恐怖？
+已添加新热搜：罪案剧《棋士》中有哪些细思极恐的细节？
+已添加新热搜：于东来透露胖东来员工平均工资 9886 元，店长级月薪高达 78058 元，怎样看这一水平？
+已添加新热搜：韩国男团「门童」BOYNEXTDOOR 泰国演唱会因地震临时取消，粉丝大量滞留集体脱粉，如何评价？
+已添加新热搜：超火「甲亢哥」直播中国行，对美国和世界网友有哪些影响？对文化传播和交流有哪些影响？
+已添加新热搜：马斯克让 xAI 以全股票交易方式收购 X，两者估值 800 亿和 330 亿美元，商业上如何解读？
+已添加新热搜：杭州上学的内蒙女孩一篇作文《旧轨还乡》火了，这篇作文为什么会火？你读完有哪些感想？
+已添加新热搜：女子玩切水果游戏 1 个月瘦 10 斤，真这么管用吗？是否有风险？你还有哪些既能娱乐又能减肥的妙招？
+已添加新热搜：关于「关羽反对黄忠位列五虎」的问题，《新三国》的处理方式是否好于《三国演义》原著？
+已添加新热搜：王宝强新剧《棋士》结构与美剧《绝命毒师》相似，是否算抄袭？
+已添加新热搜：动画片《BanG Dream! Ave Mujica》已完结，如何评价这部番？大家有什么想说的吗？
+已添加新热搜：《新还珠格格》重映收视第一，为什么它还会这么受欢迎？你对这部剧有哪些记忆？
+已添加新热搜：人类明明是顶级杂食动物，胃酸接近食腐动物，为什么连生肉都不敢吃？
+已添加新热搜：《浪姐 6》是真的「押错宝」吗？李晟的翻红是不是芒果台复制「王心凌效应」的成功尝试？
+已添加新热搜：未来高层住宅或将越来越少，密度高、电梯依赖强、维护成本高等问题逐渐暴露，该怎样解决？你还会买高层吗？
+已添加新热搜：从心理学角度看，嫉妒心理的根源是什么？
+已添加新热搜：为什么销冠一般最先离职？
+已添加新热搜：中国肥胖率最高的省是河北，北方地区的肥胖率普遍高于南方，是什么原因让北方人更容易发胖？
+已添加新热搜：GPT-4o 目前只能生成吉卜力画风的图片吗？还能生成什么风格的图片？
+已添加新热搜：52 岁网红面筋哥因病离世，因歌曲《烤面筋》走红，你对他有哪些记忆？
+已添加新热搜：「壹号土猪肉」的「壹号土」被曝是注册商标，该公司使用「壹号土猪」标识做宣传合适吗？
+已添加新热搜：Manus 正式推出付费计划，Manus Starter 套餐定价 39 美元 / 月，如何评价这一举措？
+已添加新热搜：深圳官宣房票制度，四大一线城市均已开始探索，什么是房票制度？能激活更多购房需求吗？
+已添加新热搜：高中物理书上的万有引力公式推导严谨吗？
+已添加新热搜：英菲尼迪起诉前代言人王力宏，双方的争议点是什么？解约已过两年多，英菲尼迪为什么选择此时起诉？
+已添加新热搜：完全拆除古建筑原址重建一个仿古建筑还算保护吗？
+已添加新热搜：外包保洁员主动投靠境外情报机关，造成重大失泄密，其将承担怎样的责任？工作中要从哪些环节提高保密意识？
+已添加新热搜：战鹰围棋能不能下过王宝强饰演的崔业?
+已添加新热搜：小孩喊饿，但又不吃做的饭，我应该怎么教育?
+Running time: 20.877124s, Local time: Sun Mar 30 08:51:47 2025
+已添加新热搜：青岛 23 岁女大学生凌晨外出失联 4 天，手机已被格式化，目前搜救工作进展如何？
+已添加新热搜：王宝强主演的电视剧《棋士》拍得如何？
+热搜战鹰围棋能不能下过王宝强饰演的崔业?已不在榜,准备删除
+删除热搜战鹰围棋能不能下过王宝强饰演的崔业?的ai评论总结失败, 原因: [WinError 2] 系统找不到指定的文件。: './index/Social Media Data Analytics Platform/public/doc/79920483417177283970000718565933335820545659471807250702149535250375476058150.md'
+已删除热搜战鹰围棋能不能下过王宝强饰演的崔业?
+热搜小孩喊饿，但又不吃做的饭，我应该怎么教育?已不在榜,准备删除
+删除热搜小孩喊饿，但又不吃做的饭，我应该怎么教育?的ai评论总结失败, 原因: [WinError 2] 系统找不到指定的文件。: './index/Social Media Data Analytics Platform/public/doc/23332560802514670244542145238026485104248113330291387403892571582397302777623.md'
+已删除热搜小孩喊饿，但又不吃做的饭，我应该怎么教育?
+Running time: 1.481528s, Local time: Sun Mar 30 08:52:07 2025
 已更新图表
 已更新ai主页分析
-已分析第1条热搜哈里斯拒绝给东契奇 3.5 亿顶薪，拒绝的原因是什么？的热门评论
-已分析第2条热搜现在大家都是一部手机用几年啊?的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/api/v4/questions/11824799494/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：东风汽车和重庆长安汽车公告筹划重组，哪些信息值得关注？
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/586456922
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11101207396
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/11233927225
-Get https://www.zhihu.com/api/v4/questions/11233927225/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：「在线心理咨询」存在的困难是什么？
-Get https://www.zhihu.com/question/11637935012
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/655452316
-Get https://www.zhihu.com/question/445435242
-Get https://www.zhihu.com/question/10315664948
-Get https://www.zhihu.com/question/8906701443
-Get https://www.zhihu.com/question/11793286827
-Get https://www.zhihu.com/question/11703106972
-Get https://www.zhihu.com/question/597255604
-Get https://www.zhihu.com/question/11787078887
-热搜「丽江机场值机员撕登机牌」调查结果公布，两名涉事人员待岗，具体情况如何？暴露出什么问题？已不在榜,准备删除
-已删除热搜「丽江机场值机员撕登机牌」调查结果公布，两名涉事人员待岗，具体情况如何？暴露出什么问题？的ai评论总结
-已删除热搜「丽江机场值机员撕登机牌」调查结果公布，两名涉事人员待岗，具体情况如何？暴露出什么问题？
-热搜有哪些十分令人惋惜的已灭绝动物？已不在榜,准备删除
-已删除热搜有哪些十分令人惋惜的已灭绝动物？的ai评论总结
-已删除热搜有哪些十分令人惋惜的已灭绝动物？
-Running time: 41.672515s, Local time: Tue Feb 11 11:52:04 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜东风汽车和重庆长安汽车公告筹划重组，哪些信息值得关注？的热门评论
-已分析第2条热搜「在线心理咨询」存在的困难是什么？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/462704654
-Get https://www.zhihu.com/api/v4/questions/462704654/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：为什么几乎所有的商家都把PDF转换成WORD的功能都做成了付费实现，这在技术实现上有很大的难度吗？
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/586456922
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/api/v4/questions/11382515004/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：为什么「有的人遇到挫折一蹶不振，有的人却能很快振作」？是什么心理因素造成了这种差异？
-Get https://www.zhihu.com/question/11233927225
-Get https://www.zhihu.com/question/11637935012
-Get https://www.zhihu.com/question/655452316
-Get https://www.zhihu.com/question/10315664948
-Get https://www.zhihu.com/question/11101207396
-Get https://www.zhihu.com/question/445435242
-Get https://www.zhihu.com/question/11793286827
-Get https://www.zhihu.com/question/597255604
-Get https://www.zhihu.com/question/11703106972
-热搜为什么几乎所有历史模拟游戏都无法模拟大国的衰落？已不在榜,准备删除
-已删除热搜为什么几乎所有历史模拟游戏都无法模拟大国的衰落？的ai评论总结
-已删除热搜为什么几乎所有历史模拟游戏都无法模拟大国的衰落？
-热搜存 2 年不如存 1 年，如何看待银行利率出现罕见倒挂？都有哪些原因？已不在榜,准备删除
-已删除热搜存 2 年不如存 1 年，如何看待银行利率出现罕见倒挂？都有哪些原因？的ai评论总结
-已删除热搜存 2 年不如存 1 年，如何看待银行利率出现罕见倒挂？都有哪些原因？
-Running time: 41.419862s, Local time: Tue Feb 11 11:59:17 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜为什么几乎所有的商家都把PDF转换成WORD的功能都做成了付费实现，这在技术实现上有很大的难度吗？的热门评论
-已分析第2条热搜为什么「有的人遇到挫折一蹶不振，有的人却能很快振作」？是什么心理因素造成了这种差异？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/462704654
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/586456922
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/api/v4/questions/11538209084/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如果 2024 YR4 小行星真的撞击了地球，会造成什么后果？
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/api/v4/questions/9849419450/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如果发现了野生的尼安德特人，他们会被人类社会当作人还是野生动物看待？
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/11233927225
-Get https://www.zhihu.com/question/11637935012
-Get https://www.zhihu.com/question/655452316
-Get https://www.zhihu.com/question/10315664948
-Get https://www.zhihu.com/question/11101207396
-Get https://www.zhihu.com/question/445435242
-Get https://www.zhihu.com/question/11793286827
-热搜贾母说宝玉不开心就打人骂人，也不要摔他的玉，如果他真的打（毒打)鸳鸯袭人等。贾母还会由他打吗？已不在榜,准备删除
-已删除热搜贾母说宝玉不开心就打人骂人，也不要摔他的玉，如果他真的打（毒打)鸳鸯袭人等。贾母还会由他打吗？的ai评论总结
-已删除热搜贾母说宝玉不开心就打人骂人，也不要摔他的玉，如果他真的打（毒打)鸳鸯袭人等。贾母还会由他打吗？
-热搜如何看待雷军开小米 YU7 实测一千三百公里，中间充电 2 次？这是什么水平？已不在榜,准备删除
-已删除热搜如何看待雷军开小米 YU7 实测一千三百公里，中间充电 2 次？这是什么水平？的ai评论总结
-已删除热搜如何看待雷军开小米 YU7 实测一千三百公里，中间充电 2 次？这是什么水平？
-Running time: 60.098542s, Local time: Tue Feb 11 12:06:43 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜如果 2024 YR4 小行星真的撞击了地球，会造成什么后果？的热门评论
-已分析第2条热搜如果发现了野生的尼安德特人，他们会被人类社会当作人还是野生动物看待？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/462704654
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/api/v4/questions/11787732062/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：2025 IEM 卡托维兹决赛 vitality 3:0 Spirit 夺冠，如何评价这场比赛？
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/586456922
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/api/v4/questions/662602652/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：健身到什么程度可以脱离私教？
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/api/v4/questions/11020016948/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？
-Get https://www.zhihu.com/question/11133016668
-Get https://www.zhihu.com/api/v4/questions/11133016668/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：运动健身能缓解「节后综合征」吗？
-Get https://www.zhihu.com/question/11233927225
-Get https://www.zhihu.com/question/11637935012
-Get https://www.zhihu.com/question/655452316
-热搜面试官问我期望工资，我说 8000 元面试官表示达不到，还问我最低线是多少，我能说吗？已不在榜,准备删除
-已删除热搜面试官问我期望工资，我说 8000 元面试官表示达不到，还问我最低线是多少，我能说吗？的ai评论总结
-已删除热搜面试官问我期望工资，我说 8000 元面试官表示达不到，还问我最低线是多少，我能说吗？
-热搜现在大家都是一部手机用几年啊?已不在榜,准备删除
-已删除热搜现在大家都是一部手机用几年啊?的ai评论总结
-已删除热搜现在大家都是一部手机用几年啊?
-热搜《战地1》游戏环境怎么样？已不在榜,准备删除
-已删除热搜《战地1》游戏环境怎么样？的ai评论总结
-已删除热搜《战地1》游戏环境怎么样？
-热搜宠物狗送潘宏处驯化成网红，主人拿回狗狗被要求不准用狗带货接广告，违约需赔偿百万元，这一要求合理吗？已不在榜,准备删除
-已删除热搜宠物狗送潘宏处驯化成网红，主人拿回狗狗被要求不准用狗带货接广告，违约需赔偿百万元，这一要求合理吗？的ai评论总结
-已删除热搜宠物狗送潘宏处驯化成网红，主人拿回狗狗被要求不准用狗带货接广告，违约需赔偿百万元，这一要求合理吗？
-Running time: 46.971860s, Local time: Tue Feb 11 12:13:56 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜2025 IEM 卡托维兹决赛 vitality 3:0 Spirit 夺冠，如何评价这场比赛？的热门评论
-已分析第2条热搜健身到什么程度可以脱离私教？的热门评论
-已分析第3条热搜个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？的热门评论
-已分析第4条热搜运动健身能缓解「节后综合征」吗？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/api/v4/questions/11820655351/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：哈里森拒绝给东契奇 3.5 亿顶薪，为什么他会选择拒绝？
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/462704654
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/586456922
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-Get https://www.zhihu.com/question/11233927225
-Get https://www.zhihu.com/question/11637935012
-Get https://www.zhihu.com/question/655452316
-热搜哈里斯拒绝给东契奇 3.5 亿顶薪，拒绝的原因是什么？已不在榜,准备删除
-已删除热搜哈里斯拒绝给东契奇 3.5 亿顶薪，拒绝的原因是什么？的ai评论总结
-已删除热搜哈里斯拒绝给东契奇 3.5 亿顶薪，拒绝的原因是什么？
-Running time: 39.786238s, Local time: Tue Feb 11 12:21:40 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜哈里森拒绝给东契奇 3.5 亿顶薪，为什么他会选择拒绝？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/462704654
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/586456922
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-Get https://www.zhihu.com/question/11233927225
-Get https://www.zhihu.com/question/24093244
-Get https://www.zhihu.com/api/v4/questions/24093244/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：古代王爵的封号，以前都是秦王、济南王等，后来都是肃亲王、襄郡王这种王号有什么演变或者历史原因么？
-Get https://www.zhihu.com/question/11637935012
-热搜二战期间，美国造了155艘航母，现在为何造一艘航母都费力？已不在榜,准备删除
-已删除热搜二战期间，美国造了155艘航母，现在为何造一艘航母都费力？的ai评论总结
-已删除热搜二战期间，美国造了155艘航母，现在为何造一艘航母都费力？
-Running time: 39.271762s, Local time: Tue Feb 11 12:28:38 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜古代王爵的封号，以前都是秦王、济南王等，后来都是肃亲王、襄郡王这种王号有什么演变或者历史原因么？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/api/v4/questions/11883278379/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：24-25赛季NBA常规赛勇士 125:111 雄鹿，如何评价这场比赛？
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/462704654
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/api/v4/questions/9427880011/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：想把图书馆的书都过一遍，有什么建议吗？
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-Get https://www.zhihu.com/question/11233927225
-Get https://www.zhihu.com/question/10860616801
-Get https://www.zhihu.com/api/v4/questions/10860616801/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：我发现很多健身的人都特别排斥用护具，这是为什么？
-热搜《是，大臣》S3E04里汉弗莱一行人为何一定要在库朗喝酒？已不在榜,准备删除
-已删除热搜《是，大臣》S3E04里汉弗莱一行人为何一定要在库朗喝酒？的ai评论总结
-已删除热搜《是，大臣》S3E04里汉弗莱一行人为何一定要在库朗喝酒？
-热搜古代王爵的封号，以前都是秦王、济南王等，后来都是肃亲王、襄郡王这种王号有什么演变或者历史原因么？已不在榜,准备删除
-已删除热搜古代王爵的封号，以前都是秦王、济南王等，后来都是肃亲王、襄郡王这种王号有什么演变或者历史原因么？的ai评论总结
-已删除热搜古代王爵的封号，以前都是秦王、济南王等，后来都是肃亲王、襄郡王这种王号有什么演变或者历史原因么？
-热搜如何看拳头宣布取消免费的海克斯宝箱，以后想有皮肤只能靠买？已不在榜,准备删除
-已删除热搜如何看拳头宣布取消免费的海克斯宝箱，以后想有皮肤只能靠买？的ai评论总结
-已删除热搜如何看拳头宣布取消免费的海克斯宝箱，以后想有皮肤只能靠买？
-Running time: 45.025707s, Local time: Tue Feb 11 12:35:22 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜24-25赛季NBA常规赛勇士 125:111 雄鹿，如何评价这场比赛？的热门评论
-已分析第2条热搜想把图书馆的书都过一遍，有什么建议吗？的热门评论
-已分析第3条热搜我发现很多健身的人都特别排斥用护具，这是为什么？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/api/v4/questions/11453431871/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：《天国：拯救2》有哪些把你逼疯或是气乐的事情？
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-Get https://www.zhihu.com/question/11233927225
-Get https://www.zhihu.com/question/10860616801
-热搜为什么几乎所有的商家都把PDF转换成WORD的功能都做成了付费实现，这在技术实现上有很大的难度吗？已不在榜,准备删除
-已删除热搜为什么几乎所有的商家都把PDF转换成WORD的功能都做成了付费实现，这在技术实现上有很大的难度吗？的ai评论总结
-已删除热搜为什么几乎所有的商家都把PDF转换成WORD的功能都做成了付费实现，这在技术实现上有很大的难度吗？
-Running time: 39.952423s, Local time: Tue Feb 11 12:42:53 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜《天国：拯救2》有哪些把你逼疯或是气乐的事情？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/api/v4/questions/11826833021/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：《哪吒 2》票房持续走高，它的成功是单一现象级奇迹吗？中国动画电影如何复制《哪吒 2》的成功？
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-Get https://www.zhihu.com/question/11233927225
-热搜我发现很多健身的人都特别排斥用护具，这是为什么？已不在榜,准备删除
-已删除热搜我发现很多健身的人都特别排斥用护具，这是为什么？的ai评论总结
-已删除热搜我发现很多健身的人都特别排斥用护具，这是为什么？
-Running time: 39.230538s, Local time: Tue Feb 11 12:49:21 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜《哪吒 2》票房持续走高，它的成功是单一现象级奇迹吗？中国动画电影如何复制《哪吒 2》的成功？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/api/v4/questions/11383449182/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：假如一个人有能将恐虐打成重伤的实力，又想加入色孽会怎么样呢？
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-热搜「在线心理咨询」存在的困难是什么？已不在榜,准备删除
-已删除热搜「在线心理咨询」存在的困难是什么？的ai评论总结
-已删除热搜「在线心理咨询」存在的困难是什么？
-Running time: 39.354898s, Local time: Tue Feb 11 12:55:47 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜假如一个人有能将恐虐打成重伤的实力，又想加入色孽会怎么样呢？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-Running time: 50.467430s, Local time: Tue Feb 11 13:02:34 2025
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-Running time: 38.702137s, Local time: Tue Feb 11 13:08:12 2025
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/11133016668
-Running time: 43.163092s, Local time: Tue Feb 11 13:13:56 2025
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11853881136
-Get https://www.zhihu.com/api/v4/questions/11853881136/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何看待比亚迪发布全系车型搭载高阶智驾系统，把智驾卷到 6.98 万？传统汽车定价体系还能撑多久？
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/api/v4/questions/11824272302/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何评价《哪吒之魔童闹海》幕后纪录片《不破不立》？
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/661686472
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/6684171586
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/api/v4/questions/11718120481/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：草量级已经无敌，张伟丽现在应该增重去打蝇量级吗？
-热搜想把图书馆的书都过一遍，有什么建议吗？已不在榜,准备删除
-已删除热搜想把图书馆的书都过一遍，有什么建议吗？的ai评论总结
-已删除热搜想把图书馆的书都过一遍，有什么建议吗？
-热搜个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？已不在榜,准备删除
-已删除热搜个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？的ai评论总结
-已删除热搜个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？
-热搜运动健身能缓解「节后综合征」吗？已不在榜,准备删除
-已删除热搜运动健身能缓解「节后综合征」吗？的ai评论总结
-已删除热搜运动健身能缓解「节后综合征」吗？
-Running time: 45.507196s, Local time: Tue Feb 11 13:19:41 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜如何看待比亚迪发布全系车型搭载高阶智驾系统，把智驾卷到 6.98 万？传统汽车定价体系还能撑多久？的热门评论
-已分析第2条热搜如何评价《哪吒之魔童闹海》幕后纪录片《不破不立》？的热门评论
-已分析第3条热搜草量级已经无敌，张伟丽现在应该增重去打蝇量级吗？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/api/v4/questions/11824269667/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：万科重组，是否标志着 2025 年将会是房地产触底回升的一年？
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11853881136
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/api/v4/questions/9427880011/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：想把图书馆的书都过一遍，有什么建议吗？
-热搜农村出身的大学生如今真的有出路吗?已不在榜,准备删除
-已删除热搜农村出身的大学生如今真的有出路吗?的ai评论总结
-已删除热搜农村出身的大学生如今真的有出路吗?
-热搜为什么很多北方方言词汇无法考证本字？已不在榜,准备删除
-已删除热搜为什么很多北方方言词汇无法考证本字？的ai评论总结
-已删除热搜为什么很多北方方言词汇无法考证本字？
-Running time: 38.878081s, Local time: Tue Feb 11 13:27:11 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜万科重组，是否标志着 2025 年将会是房地产触底回升的一年？的热门评论
-已分析第2条热搜想把图书馆的书都过一遍，有什么建议吗？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11853881136
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/9427880011
-Running time: 39.469441s, Local time: Tue Feb 11 13:34:50 2025
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-ChunkedEncodingError encountered when requesting https://www.zhihu.com/question/11738696226: Response ended prematurely. Retrying...
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11853881136
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11785781178
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/9427880011
-Running time: 51.147441s, Local time: Tue Feb 11 13:40:41 2025
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11853881136
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/10572273032
-Get https://www.zhihu.com/api/v4/questions/10572273032/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：被领导针对，但自己并没有太出众的能力，没有直接裸辞的资本，现在该怎么办呢？
-Get https://www.zhihu.com/question/9427880011
-热搜特朗普签署行政令，对所有钢、铝进口加征 25% 的关税，原因是什么？会对相关产业带来什么影响？已不在榜,准备删除
-已删除热搜特朗普签署行政令，对所有钢、铝进口加征 25% 的关税，原因是什么？会对相关产业带来什么影响？的ai评论总结
-已删除热搜特朗普签署行政令，对所有钢、铝进口加征 25% 的关税，原因是什么？会对相关产业带来什么影响？
-Running time: 49.287952s, Local time: Tue Feb 11 13:46:30 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜被领导针对，但自己并没有太出众的能力，没有直接裸辞的资本，现在该怎么办呢？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11382515004
-Get https://www.zhihu.com/question/9849419450
-ChunkedEncodingError encountered when requesting https://www.zhihu.com/question/11878246869: Response ended prematurely. Retrying...
-Get https://www.zhihu.com/question/11878246869
-Get https://www.zhihu.com/api/v4/questions/11878246869/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：广西一中学教师被举报性侵，致女生轻生，官方称「部分内容属实，警方介入调查」，如何才能避免类似事件发生？
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/10572273032
-热搜如何看待比亚迪发布全系车型搭载高阶智驾系统，把智驾卷到 6.98 万？传统汽车定价体系还能撑多久？已不在榜,准备删除
-已删除热搜如何看待比亚迪发布全系车型搭载高阶智驾系统，把智驾卷到 6.98 万？传统汽车定价体系还能撑多久？的ai评论总结
-已删除热搜如何看待比亚迪发布全系车型搭载高阶智驾系统，把智驾卷到 6.98 万？传统汽车定价体系还能撑多久？
-Running time: 53.170615s, Local time: Tue Feb 11 13:53:16 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜广西一中学教师被举报性侵，致女生轻生，官方称「部分内容属实，警方介入调查」，如何才能避免类似事件发生？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11878246869
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/10572273032
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/api/v4/questions/11020016948/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？
-热搜为什么「有的人遇到挫折一蹶不振，有的人却能很快振作」？是什么心理因素造成了这种差异？已不在榜,准备删除
-已删除热搜为什么「有的人遇到挫折一蹶不振，有的人却能很快振作」？是什么心理因素造成了这种差异？的ai评论总结
-已删除热搜为什么「有的人遇到挫折一蹶不振，有的人却能很快振作」？是什么心理因素造成了这种差异？
-Running time: 41.181102s, Local time: Tue Feb 11 14:00:00 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11538209084
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11787732062
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/11878246869
-Get https://www.zhihu.com/question/662602652
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/10572273032
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/10882765527
-Get https://www.zhihu.com/api/v4/questions/10882765527/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：对于健身，饮酒的危害有多大？
-热搜如何看待「荷兰代尔夫特理工大学赵翰欣博士举报导师胁迫霸凌，并被打击报复甚至开除」事件？已不在榜,准备删除
-已删除热搜如何看待「荷兰代尔夫特理工大学赵翰欣博士举报导师胁迫霸凌，并被打击报复甚至开除」事件？的ai评论总结
-已删除热搜如何看待「荷兰代尔夫特理工大学赵翰欣博士举报导师胁迫霸凌，并被打击报复甚至开除」事件？
-Running time: 45.782935s, Local time: Tue Feb 11 14:06:33 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜对于健身，饮酒的危害有多大？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/question/11820655351
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11878246869
-Get https://www.zhihu.com/question/11892012798
-Get https://www.zhihu.com/api/v4/questions/11892012798/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：东契奇首秀，湖人132：113击败爵士取得六连胜，如何评价这场比赛？
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/10572273032
-Get https://www.zhihu.com/question/11020016948
-Get https://www.zhihu.com/question/10882765527
-Get https://www.zhihu.com/question/9668694529
-Get https://www.zhihu.com/api/v4/questions/9668694529/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：在游戏《真三国无双起源》中，有哪些让你难以忘怀的战斗？
-Get https://www.zhihu.com/question/10445059873
-Get https://www.zhihu.com/api/v4/questions/10445059873/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何评价2024年唐山GDP破万亿？
-热搜如果 2024 YR4 小行星真的撞击了地球，会造成什么后果？已不在榜,准备删除
-已删除热搜如果 2024 YR4 小行星真的撞击了地球，会造成什么后果？的ai评论总结
-已删除热搜如果 2024 YR4 小行星真的撞击了地球，会造成什么后果？
-热搜2025 IEM 卡托维兹决赛 vitality 3:0 Spirit 夺冠，如何评价这场比赛？已不在榜,准备删除
-已删除热搜2025 IEM 卡托维兹决赛 vitality 3:0 Spirit 夺冠，如何评价这场比赛？的ai评论总结
-已删除热搜2025 IEM 卡托维兹决赛 vitality 3:0 Spirit 夺冠，如何评价这场比赛？
-热搜健身到什么程度可以脱离私教？已不在榜,准备删除
-已删除热搜健身到什么程度可以脱离私教？的ai评论总结
-已删除热搜健身到什么程度可以脱离私教？
-Running time: 42.950244s, Local time: Tue Feb 11 14:13:02 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜东契奇首秀，湖人132：113击败爵士取得六连胜，如何评价这场比赛？的热门评论
-已分析第2条热搜在游戏《真三国无双起源》中，有哪些让你难以忘怀的战斗？的热门评论
-已分析第3条热搜如何评价2024年唐山GDP破万亿？的热门评论
-已更新所有ai评论总结
-Get https://www.zhihu.com/api/v4/feed/topstory/hot-lists/total
-Get https://www.zhihu.com/question/11848696328
-Get https://www.zhihu.com/question/11843666102
-Get https://www.zhihu.com/question/11717813322
-Get https://www.zhihu.com/question/11879236724
-Get https://www.zhihu.com/question/9987220611
-Get https://www.zhihu.com/question/11820675692
-Get https://www.zhihu.com/question/11883278379
-Get https://www.zhihu.com/question/11738696226
-Get https://www.zhihu.com/question/11824269667
-Get https://www.zhihu.com/question/11862777932
-Get https://www.zhihu.com/question/11668184911
-Get https://www.zhihu.com/api/v4/questions/11668184911/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：苏宁集团公告破产重整，如何评价这家企业？
-Get https://www.zhihu.com/question/11824272302
-Get https://www.zhihu.com/question/11824799494
-Get https://www.zhihu.com/question/11848486207
-Get https://www.zhihu.com/question/11765554531
-Get https://www.zhihu.com/question/11826833021
-Get https://www.zhihu.com/question/11453431871
-Get https://www.zhihu.com/question/11892012798
-Get https://www.zhihu.com/question/9849419450
-Get https://www.zhihu.com/question/11878246869
-Get https://www.zhihu.com/question/11383449182
-Get https://www.zhihu.com/question/11280054840
-Get https://www.zhihu.com/question/11718120481
-Get https://www.zhihu.com/question/11837808901
-Get https://www.zhihu.com/question/9427880011
-Get https://www.zhihu.com/question/10572273032
-Get https://www.zhihu.com/question/10882765527
-Get https://www.zhihu.com/question/9668694529
-Get https://www.zhihu.com/question/10445059873
-Get https://www.zhihu.com/question/11216765703
-Get https://www.zhihu.com/api/v4/questions/11216765703/feeds?include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=0&order=default&platform=desktop&ws_qiangzhisafe=1
-已添加新热搜：如何看待「荷兰代尔夫特理工大学赵翰欣博士举报导师胁迫霸凌，并被打击报复甚至开除」事件？
-热搜哈里森拒绝给东契奇 3.5 亿顶薪，为什么他会选择拒绝？已不在榜,准备删除
-已删除热搜哈里森拒绝给东契奇 3.5 亿顶薪，为什么他会选择拒绝？的ai评论总结
-已删除热搜哈里森拒绝给东契奇 3.5 亿顶薪，为什么他会选择拒绝？
-热搜个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？已不在榜,准备删除
-已删除热搜个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？的ai评论总结
-已删除热搜个人平常不怎么运动，现在想培养一个运动习惯，从什么运动开始比较好呢？
-Running time: 43.394771s, Local time: Tue Feb 11 14:20:36 2025
-已更新图表
-已更新ai主页分析
-已分析第1条热搜苏宁集团公告破产重整，如何评价这家企业？的热门评论
-已分析第2条热搜如何看待「荷兰代尔夫特理工大学赵翰欣博士举报导师胁迫霸凌，并被打击报复甚至开除」事件？的热门评论
-已更新所有ai评论总结
+已分析第1条热搜缅甸 7.9 级强震已造成该国所有受灾地区 1644 人死亡，目前救援情况如何？有哪些难点？的热门评论
+已分析第2条热搜魔爪功能饮料到底有多恐怖？的热门评论
+已分析第3条热搜罪案剧《棋士》中有哪些细思极恐的细节？的热门评论
+已分析第4条热搜于东来透露胖东来员工平均工资 9886 元，店长级月薪高达 78058 元，怎样看这一水平？的热门评论
+已分析第5条热搜韩国男团「门童」BOYNEXTDOOR 泰国演唱会因地震临时取消，粉丝大量滞留集体脱粉，如何评价？的热门评论
+已分析第6条热搜超火「甲亢哥」直播中国行，对美国和世界网友有哪些影响？对文化传播和交流有哪些影响？的热门评论
+已分析第7条热搜马斯克让 xAI 以全股票交易方式收购 X，两者估值 800 亿和 330 亿美元，商业上如何解读？的热门评论
+已分析第8条热搜青岛 23 岁女大学生凌晨外出失联 4 天，手机已被格式化，目前搜救工作进展如何？的热门评论
+已分析第9条热搜杭州上学的内蒙女孩一篇作文《旧轨还乡》火了，这篇作文为什么会火？你读完有哪些感想？的热门评论
+已分析第10条热搜女子玩切水果游戏 1 个月瘦 10 斤，真这么管用吗？是否有风险？你还有哪些既能娱乐又能减肥的妙招？的热门评论
+已分析第11条热搜关于「关羽反对黄忠位列五虎」的问题，《新三国》的处理方式是否好于《三国演义》原著？的热门评论
+已分析第12条热搜王宝强主演的电视剧《棋士》拍得如何？的热门评论
+已分析第13条热搜王宝强新剧《棋士》结构与美剧《绝命毒师》相似，是否算抄袭？的热门评论
+已分析第14条热搜动画片《BanG Dream! Ave Mujica》已完结，如何评价这部番？大家有什么想说的吗？的热门评论
+已分析第15条热搜《新还珠格格》重映收视第一，为什么它还会这么受欢迎？你对这部剧有哪些记忆？的热门评论
+已分析第16条热搜人类明明是顶级杂食动物，胃酸接近食腐动物，为什么连生肉都不敢吃？的热门评论
+已分析第17条热搜从心理学角度看，嫉妒心理的根源是什么？的热门评论
+已分析第18条热搜未来高层住宅或将越来越少，密度高、电梯依赖强、维护成本高等问题逐渐暴露，该怎样解决？你还会买高层吗？的热门评论
