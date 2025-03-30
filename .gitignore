@@ -1,0 +1,6 @@
+data\log\log.txt
+data\csv\*.csv
+__pycache__\*.pyc
+index\Social Media Data Analytics Platform\src\images\*.png
+index\Social Media Data Analytics Platform\public\docs\*.md
+index\Social Media Data Analytics Platform\public\docs\*.txt

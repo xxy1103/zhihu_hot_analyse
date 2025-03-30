@@ -113,6 +113,8 @@ def get_info(item):
     QuestionHeader_side = html.find('div', class_='QuestionHeader-side')
     if QuestionHeader_side:
         item['关注者'] = QuestionHeader_side.find_all('strong',class_ = "NumberBoard-itemValue")[0].get_text()
+        # 清理数字中的逗号等非数字字符，只保留数字
+        item['关注者'] = re.sub(r'[^\d]', '', item['关注者'])
         item['被浏览量'] = QuestionHeader_side.find_all('strong',class_ = "NumberBoard-itemValue")[1].get_text()
     header_text = html.find('h4', class_='List-headerText')
     if header_text:

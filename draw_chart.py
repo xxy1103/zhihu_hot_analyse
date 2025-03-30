@@ -31,7 +31,7 @@ def draw_chart(file_path,   #读取表格路径
     plt.close()
 
     # 统计点赞数总和并求均值
-    data['点赞均值'] = data[['回答1点赞数', '回答2点赞数', '回答3点赞数', '回答4点赞数', '回答5点赞数']].sum(axis=1) / 5
+    data['点赞均值'] = data[['回答1点赞数', '回答2点赞数']].sum(axis=1) / 5
 
     # 找出点赞均值前五位的标题
     top_5_titles = data.nlargest(5, '点赞均值')['标题']
@@ -70,4 +70,4 @@ def draw_chart(file_path,   #读取表格路径
 
 
 if __name__ == '__main__':
-    draw_chart('./data/csv/zhihu_hot0.csv', r'C:\Windows\Fonts\simhei.ttf', './data')
+    draw_chart('./data/csv/zhihu_hot0.csv', r'C:\Windows\Fonts\simhei.ttf', './data/')

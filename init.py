@@ -29,7 +29,7 @@ def zhihu_update(zhihu):
         return False
     if change == True:
         try:
-            #draw_chart(f'./data/csv/zhihu_hot{key}.csv', r'C:\Windows\Fonts\simhei.ttf', './index/Social Media Data Analytics Platform/')
+            draw_chart(f'./data/csv/zhihu_hot{key}.csv', r'C:\Windows\Fonts\simhei.ttf', './index/Social Media Data Analytics Platform/')
             log("已更新图表")
         except Exception as e:
             log("更新图表失败，错误信息：{}".format(e))
