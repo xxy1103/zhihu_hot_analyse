@@ -26,7 +26,7 @@ make_dir_lock = Lock()
 
 
 zhihu_hot_list = []
-cookie = r"_zap=bced0e7d-fee0-469c-b9d3-e99dbadbacb7; d_c0=eOdTTcVIdhqPTo0xt8rcvlEpoHttVGQ1ydw=|1747394521; _xsrf=47dc90d4-229c-41e0-9ec3-8f9b9ede2a8c; captcha_session_v2=2|1:0|10:1748595118|18:captcha_session_v2|88:R1JvL096d2RON2hrRzQ2WnVyaHRDakRwbzhQUVZwa2VVbllwWXhETktmRmRFR0RtMjEzcmx4T3lPNGZadlduSg==|c841054da562a6bcbbcdbe3197861be6375ce208dfe37f35e6adf04181b8711d; __snaker__id=FTf92uY5MgpXLyYt; gdxidpyhxdE=n1yk%5CfeU3DDA%5Cf6uxc9fNZOAzdQ%2B2PRZ%2Fc4vgXKcV%5CTy%2F2kqvXeDTtiItMzmg4AoToCbhkMyuBZDCujiBfE%5Czzl%2BGNSEqqRRkKBOcoOOI5DfVahxRiBJBP5zWQAZb2OImWTf6vzmf1vMaqe1X1yoG%5CDqLUTaaOhzQEzEQI5zKyjdB%5CAv%3A1748596019701; expire_in=15552000; q_c1=4c43941855e84d01b173def59c2f3c25|1748595130000|1748595130000; z_c0=2|1:0|10:1748595132|4:z_c0|92:Mi4xMlVidkNnQUFBQUI0NTFOTnhVaDJHaGNBQUFCZ0FsVk51YjhtYVFBc1NKSk5RRHRUdFFDSzJhdWF4VXZPN05GM3Fn|a3ed9001f3c085d426a28810dc145cb7e336cb33b11076bbfd87bf0aa69a95c0; __zse_ck=004_oGGGVwZm/bC6JppFGc9cjWq2PtuUuU6LWwbrN0Sik7t1MXjAeiqdQt9yIiJ216uFav7NUzHr8TSe8CSTGMeNyVc0U42Z9pQA1X9f4kgBec=pSLwcUumLBdMezskxz7LF-tTCnfqjmY8AgdLyciRbDrpGXpPg51URPY3y8WtaVFngBvzrSDUzpYcgKn3WCR7YtfJV7xwxbGBwAyX/hBrwURoJDW+eUmoFxHVxhqf59YqGxCiXycNiBt58zrUueZi+byqRtK125JoFJsOKUjOHJm9nBzCYs4GaWKIMDdkjbd8k=; BEC=46faae78ffea44ab7c29d705bdab5c18; tst=r; SESSIONID=4Co1zA1FQyM1rGzGgYTPXqceiEmk4KtGXBV7xUXCXbD; JOID=WlkXC097bYThVClOIHsIHJphYtAzRi3h3CJhfGwmHcraKmI9ZFEzuIlRI0cmEXuUno7ooMvVNNP3YhahYFXOxBg=; osd=UVsVA0twb4bpUCJMInMMF5hjatQ4RC_p2CljfmQiFsjYImY2ZlM7vIJTIU8iGnmWlorjosndMNj1YB6la1fMzBw="
+cookie = r"_zap=bced0e7d-fee0-469c-b9d3-e99dbadbacb7; d_c0=eOdTTcVIdhqPTo0xt8rcvlEpoHttVGQ1ydw=|1747394521; _xsrf=47dc90d4-229c-41e0-9ec3-8f9b9ede2a8c; captcha_session_v2=2|1:0|10:1748595118|18:captcha_session_v2|88:R1JvL096d2RON2hrRzQ2WnVyaHRDakRwbzhQUVZwa2VVbllwWXhETktmRmRFR0RtMjEzcmx4T3lPNGZadlduSg==|c841054da562a6bcbbcdbe3197861be6375ce208dfe37f35e6adf04181b8711d; __snaker__id=FTf92uY5MgpXLyYt; gdxidpyhxdE=n1yk%5CfeU3DDA%5Cf6uxc9fNZOAzdQ%2B2PRZ%2Fc4vgXKcV%5CTy%2F2kqvXeDTtiItMzmg4AoToCbhkMyuBZDCujiBfE%5Czzl%2BGNSEqqRRkKBOcoOOI5DfVahxRiBJBP5zWQAZb2OImWTf6vzmf1vMaqe1X1yoG%5CDqLUTaaOhzQEzEQI5zKyjdB%5CAv%3A1748596019701; expire_in=15552000; q_c1=4c43941855e84d01b173def59c2f3c25|1748595130000|1748595130000; z_c0=2|1:0|10:1748595132|4:z_c0|92:Mi4xMlVidkNnQUFBQUI0NTFOTnhVaDJHaGNBQUFCZ0FsVk51YjhtYVFBc1NKSk5RRHRUdFFDSzJhdWF4VXZPN05GM3Fn|a3ed9001f3c085d426a28810dc145cb7e336cb33b11076bbfd87bf0aa69a95c0; SESSIONID=uQCAYpiF8CY0aJqTlupogF5p25h3x1fuJHVt0wUZENj; JOID=VV8cBU9BCh-nKlTnfUBpg9QUHn9qNFVT5HAkgDR6SUiYSR2WJ-TkKM4pWuZwlBks3yC6gv0nyQ5evQdxbrHhwkI=; osd=UFgSB0JEDRGlJ1Hgc0JkhtMaHHJvM1tR6XUjjjZ3TE-WSxCTIOrmJcsuVOR9kR4i3S2_hfMlxAtZswV8a7bvwE8=; tst=r; __zse_ck=004_X=vZSiHHpMVefUgyJRswyYoaSN3D6kStC5tZUWrX=fyKbsdqgmvBq558QCzK385Aa7xBz6i2zpfdi=XApWT7cH/zOgtQqdox6IZxd70kde1VtVhiEjNYLFOAitGC83Yw-Jw5KKouIzTUS/PG7msqb/hzDMp+aVR/SCtk9WMJmf+WNs5bAJH6p1OVVMCnmgJQ8QKaEVBy+C4+fHy7GSMmt/iHwoN4PTrlgtckNaF53no7vzTJc/8WB0VpKtAT5+I3Bkn2Bjb9NN9oqGwabdNw+rnnXlfq2dJjuXu3AYPadsdk=; BEC=8ce9e721fafad59a55ed220f1ad7f253"
 header = {'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
           'cookie':cookie,
           }
@@ -121,32 +121,77 @@ def get_info(item):
         item['总回答数'] = header_text.get_text().split(' ')[0]
     
     answer_html = html.find_all('div', class_='List-item')
+    print(f"找到 {len(answer_html)} 个回答项")
+    
     for i in range(len(answer_html)):
         item[f"回答{i+1}"] = []
-        span = answer_html[i].find('span', class_='RichText ztext CopyrightRichText-richText css-ob6uua')
+        
+        # 尝试多种可能的CSS类名，适应知乎页面结构的变化
+        span = None
+        possible_classes = [
+            'RichText ztext CopyrightRichText-richText css-1yl6ec1',
+            'RichText ztext CopyrightRichText-richText css-ob6uua',
+            'RichText ztext CopyrightRichText-richText'
+        ]
+        
+        for class_name in possible_classes:
+            span = answer_html[i].find('span', class_=class_name)
+            if span:
+                print(f"回答{i+1}: 使用类名 '{class_name}' 找到内容")
+                break
+        
+        # 如果仍然找不到，尝试使用更宽泛的选择器
+        if not span:
+            span = answer_html[i].find('span', class_=lambda x: x and 'RichText' in x and 'ztext' in x)
+            if span:
+                print(f"回答{i+1}: 使用宽泛选择器找到内容")
+        
         if span:
             # 获取所有p标签，将每个p标签的文本作为数组的一个元素
             paragraphs = span.find_all('p')
-            item[f"回答{i+1}"] = [p.get_text() for p in paragraphs]
+            if paragraphs:
+                item[f"回答{i+1}"] = [p.get_text() for p in paragraphs]
+                print(f"回答{i+1}: 提取了 {len(paragraphs)} 个段落")
+            else:
+                # 如果没有p标签，直接获取span的文本内容
+                item[f"回答{i+1}"] = [span.get_text().strip()]
+                print(f"回答{i+1}: 直接提取span内容")
+        else:
+            print(f"回答{i+1}: 未找到内容元素")
 
-        # 修改获取点赞数的方法
+        # 修改获取点赞数的方法，适应新的HTML结构
         vote_button = answer_html[i].find('button', {'aria-label': lambda x: x and '赞同' in x})
         if vote_button:
-            # 从aria-label属性中提取数字，格式为"赞同 1107"
-            aria_label = vote_button.get('aria-label', '')
+            # 从aria-label属性中提取数字，格式为"赞同 3206 " (注意可能有空格)
+            aria_label = vote_button.get('aria-label', '').strip()
             match = re.search(r'赞同\s+(\d+)', aria_label)
             if match:
                 item[f"回答{i+1}点赞数"] = match.group(1)
+                print(f"回答{i+1}: 从aria-label提取点赞数 {match.group(1)}")
             else:
-                # 尝试从按钮文本中获取，格式为"赞同 1107"
+                # 尝试从按钮文本中获取
                 button_text = vote_button.get_text().strip()
                 match = re.search(r'赞同\s+(\d+)', button_text)
                 if match:
                     item[f"回答{i+1}点赞数"] = match.group(1)
+                    print(f"回答{i+1}: 从按钮文本提取点赞数 {match.group(1)}")
                 else:
                     item[f"回答{i+1}点赞数"] = "0"
+                    print(f"回答{i+1}: 未能解析点赞数，设为0")
         else:
-            item[f"回答{i+1}点赞数"] = "0"
+            # 如果找不到按钮，尝试查找其他可能的点赞数显示方式
+            vote_info = answer_html[i].find('div', string=lambda x: x and '人赞同了该回答' in x)
+            if vote_info:
+                match = re.search(r'(\d+)\s*人赞同了该回答', vote_info.get_text())
+                if match:
+                    item[f"回答{i+1}点赞数"] = match.group(1)
+                    print(f"回答{i+1}: 从文本信息提取点赞数 {match.group(1)}")
+                else:
+                    item[f"回答{i+1}点赞数"] = "0"
+                    print(f"回答{i+1}: 找到文本信息但无法解析点赞数")
+            else:
+                item[f"回答{i+1}点赞数"] = "0"
+                print(f"回答{i+1}: 未找到点赞相关信息，设为0")
 
     return item
     
