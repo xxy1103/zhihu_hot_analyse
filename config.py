@@ -5,7 +5,7 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'zhihu-analytics-secret-key-2025'
     
     # API配置
-    API_HOST = os.environ.get('API_HOST') or '127.0.0.1'
+    API_HOST = os.environ.get('API_HOST') or '0.0.0.0'
     API_PORT = int(os.environ.get('API_PORT') or 5251)
     
     # 调试模式

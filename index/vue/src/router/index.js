@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import homeview from "../views/Home.vue";
+import homeview from "../views/Home_new.vue";
 
 
 const router = createRouter({

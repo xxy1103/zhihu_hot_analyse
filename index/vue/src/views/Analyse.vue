@@ -263,6 +263,7 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { marked } from 'marked'
+import { apiRequest, API_ENDPOINTS } from '@/utils/api'
 
 const route = useRoute()
 const userId = ref(route.params.userId)
@@ -306,8 +307,15 @@ const fetchDocument = async (id) => {
 // 获取数据
 const fetchData = async () => {
   try {
-    const response = await fetch(`http://localhost:5251/?id=${userId.value}`)
-    const data = await response.json()
+    const data = await apiRequest(API_ENDPOINTS.HOT_TOPIC_DETAIL(userId.value))
+    
+    // 检查是否有错误
+    if (data.error) {
+      console.error('API返回错误:', data.error, data.message)
+      // 设置默认值，避免一直加载
+      question.value = '数据加载失败'
+      return
+    }
     
     view.value = data['被浏览量'] || 0
     hot_value.value = data['热度'] || 0
@@ -323,8 +331,12 @@ const fetchData = async () => {
     answer2_like.value = data['回答2点赞数'] || 0
     answer3.value = data['回答3'] || ''
     answer3_like.value = data['回答3点赞数'] || 0
+    
+    console.log('数据加载成功:', data)
   } catch (error) {
     console.error('请求数据出错:', error)
+    // 设置默认值，避免一直加载
+    question.value = '网络连接失败'
   }
 }
 
@@ -725,98 +737,634 @@ watch(() => route.params.userId, (newId) => {
 /* 响应式设计优化 */
 @media (max-width: 768px) {
   .analyse-container {
-    padding: 0 0.5rem;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .loading-container {
+    padding: 40px 20px !important;
+    margin: 20px !important;
+    border-radius: 16px !important;
+  }
+  
+  .loading-container .text-h6 {
+    font-size: 1.2rem !important;
+  }
+  
+  .loading-container .v-progress-circular {
+    width: 48px !important;
+    height: 48px !important;
+  }
+  
+  .topic-card {
+    margin: 16px !important;
+    border-radius: 16px !important;
+  }
+  
+  .topic-card .v-card-text {
+    padding: 20px !important;
   }
   
   .topic-title {
-    font-size: 1.5rem !important;
-    line-height: 1.4;
+    font-size: 1.4rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 16px !important;
   }
   
-  .answer-content p {
-    text-indent: 1em;
-    font-size: 0.95rem;
+  /* 统计芯片优化 */
+  .topic-card .v-chip {
+    height: 24px !important;
+    font-size: 11px !important;
+    margin: 2px !important;
   }
   
-  .topic-description,
-  .markdown-content {
-    padding: 1.5rem;
+  .topic-card .v-icon {
+    margin-right: 8px !important;
+    font-size: 24px !important;
+  }
+  
+  .stats-row {
+    margin-bottom: 20px !important;
+  }
+  
+  .stats-row .v-col {
+    padding: 6px !important;
+  }
+  
+  .stat-card {
+    min-height: 100px !important;
+    border-radius: 12px !important;
+  }
+  
+  .stat-card .v-card-text {
+    padding: 12px !important;
+  }
+  
+  .stat-card .v-icon {
+    font-size: 24px !important;
+    margin-bottom: 8px !important;
   }
   
   .stat-card .text-h5 {
-    font-size: 1.25rem !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .topic-card .pa-6,
-  .summary-card .pa-6,
-  .answers-card .pa-6 {
-    padding: 1rem !important;
+    font-size: 1.1rem !important;
+    margin-bottom: 4px !important;
   }
   
-  .answer-card .pa-5 {
-    padding: 1rem !important;
+  .stat-card .text-caption {
+    font-size: 10px !important;
   }
   
-  .stat-card .pa-4 {
-    padding: 0.75rem !important;
+  .stat-card .v-progress-linear {
+    height: 3px !important;
+    margin-top: 8px !important;
+  }
+  
+  .topic-description {
+    margin-top: 16px !important;
+  }
+  
+  .topic-description h3 {
+    font-size: 1rem !important;
+    margin-bottom: 12px !important;
+  }
+  
+  .topic-description p {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+  
+  .modern-btn {
+    height: 40px !important;
+    font-size: 14px !important;
+    border-radius: 20px !important;
+    padding: 0 16px !important;
+  }
+  
+  .modern-btn .v-icon {
+    margin-right: 4px !important;
+    font-size: 18px !important;
+  }
+  
+  .summary-card {
+    margin: 16px !important;
+    border-radius: 16px !important;
+  }
+  
+  .summary-card .v-card-title {
+    padding: 16px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+  
+  .summary-card .v-card-title .text-h5 {
+    font-size: 1.2rem !important;
+  }
+  
+  .summary-card .v-card-title .v-icon {
+    font-size: 24px !important;
+    margin-right: 8px !important;
+  }
+  
+  .summary-card .v-card-text {
+    padding: 16px !important;
+  }
+  
+  .summary-card .v-divider {
+    margin: 0 16px !important;
+  }
+  
+  .markdown-content {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+  
+  .markdown-content h1 {
+    font-size: 1.3rem !important;
+    margin: 16px 0 12px 0 !important;
+  }
+  
+  .markdown-content h2 {
+    font-size: 1.2rem !important;
+    margin: 14px 0 10px 0 !important;
+  }
+  
+  .markdown-content h3 {
+    font-size: 1.1rem !important;
+    margin: 12px 0 8px 0 !important;
+  }
+  
+  .markdown-content p {
+    margin: 8px 0 !important;
+    font-size: 14px !important;
+  }
+  
+  .markdown-content ul, 
+  .markdown-content ol {
+    padding-left: 20px !important;
+    margin: 8px 0 !important;
+  }
+  
+  .markdown-content li {
+    margin: 4px 0 !important;
+    font-size: 14px !important;
+  }
+  
+  .markdown-content blockquote {
+    border-left: 3px solid #667eea !important;
+    padding-left: 12px !important;
+    margin: 12px 0 !important;
+    font-style: italic !important;
+    background: rgba(102, 126, 234, 0.05) !important;
+    border-radius: 0 8px 8px 0 !important;
+    padding: 8px 12px !important;
+  }
+  
+  .markdown-content code {
+    background: rgba(102, 126, 234, 0.1) !important;
+    padding: 2px 4px !important;
+    border-radius: 4px !important;
+    font-size: 12px !important;
+  }
+  
+  .markdown-content pre {
+    background: rgba(102, 126, 234, 0.05) !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+    overflow-x: auto !important;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+  }
+  
+  .markdown-content img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    margin: 12px 0 !important;
+  }
+  
+  .markdown-content table {
+    width: 100% !important;
+    font-size: 12px !important;
+    border-collapse: collapse !important;
+    margin: 12px 0 !important;
+    overflow-x: auto !important;
+    display: block !important;
+    white-space: nowrap !important;
+  }
+  
+  .markdown-content th,
+  .markdown-content td {
+    padding: 6px 8px !important;
+    border: 1px solid rgba(102, 126, 234, 0.2) !important;
+    text-align: left !important;
+  }
+  
+  .markdown-content th {
+    background: rgba(102, 126, 234, 0.1) !important;
+    font-weight: 600 !important;
   }
 }
 
-/* 按钮和交互元素美化 */
-.v-btn.modern-btn {
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.25) !important;
+/* 移动端暗色主题优化 */
+.v-theme--dark {
+  @media (max-width: 768px) {
+    .markdown-content blockquote {
+      background: rgba(102, 126, 234, 0.1) !important;
+      border-left-color: #818cf8 !important;
+    }
+    
+    .markdown-content code {
+      background: rgba(102, 126, 234, 0.15) !important;
+    }
+    
+    .markdown-content pre {
+      background: rgba(102, 126, 234, 0.1) !important;
+    }
+    
+    .markdown-content th,
+    .markdown-content td {
+      border-color: rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    .markdown-content th {
+      background: rgba(102, 126, 234, 0.15) !important;
+    }
+  }
 }
 
-.v-btn.modern-btn:hover {
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.35) !important;
+/* =================== 移动端优化样式 =================== */
+
+/* 移动端容器优化 */
+@media (max-width: 768px) {
+  .analyse-container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .loading-container {
+    padding: 40px 20px !important;
+    margin: 20px !important;
+    border-radius: 16px !important;
+  }
+  
+  .loading-container .text-h6 {
+    font-size: 1.2rem !important;
+  }
+  
+  .loading-container .v-progress-circular {
+    width: 48px !important;
+    height: 48px !important;
+  }
 }
 
-/* 芯片美化 */
-.v-chip {
-  font-weight: 600 !important;
-  letter-spacing: 0.01em !important;
+/* 移动端话题卡片优化 */
+@media (max-width: 768px) {
+  .topic-card {
+    margin: 16px !important;
+    border-radius: 16px !important;
+  }
+  
+  .topic-card .v-card-text {
+    padding: 20px !important;
+  }
+  
+  .topic-title {
+    font-size: 1.4rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 16px !important;
+  }
+  
+  /* 统计芯片优化 */
+  .topic-card .v-chip {
+    height: 24px !important;
+    font-size: 11px !important;
+    margin: 2px !important;
+  }
+  
+  .topic-card .v-icon {
+    margin-right: 8px !important;
+    font-size: 24px !important;
+  }
 }
 
-.v-chip--variant-tonal {
-  backdrop-filter: blur(10px);
+/* 移动端统计卡片优化 */
+@media (max-width: 768px) {
+  .stats-row {
+    margin-bottom: 20px !important;
+  }
+  
+  .stats-row .v-col {
+    padding: 6px !important;
+  }
+  
+  .stat-card {
+    min-height: 100px !important;
+    border-radius: 12px !important;
+  }
+  
+  .stat-card .v-card-text {
+    padding: 12px !important;
+  }
+  
+  .stat-card .v-icon {
+    font-size: 24px !important;
+    margin-bottom: 8px !important;
+  }
+  
+  .stat-card .text-h5 {
+    font-size: 1.1rem !important;
+    margin-bottom: 4px !important;
+  }
+  
+  .stat-card .text-caption {
+    font-size: 10px !important;
+  }
+  
+  .stat-card .v-progress-linear {
+    height: 3px !important;
+    margin-top: 8px !important;
+  }
 }
 
-/* 图标动画增强 */
-.v-icon.pulse {
-  animation: pulse 2s infinite ease-in-out;
+/* 移动端按钮和链接优化 */
+@media (max-width: 768px) {
+  .topic-description {
+    margin-top: 16px !important;
+  }
+  
+  .topic-description h3 {
+    font-size: 1rem !important;
+    margin-bottom: 12px !important;
+  }
+  
+  .topic-description p {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+  
+  .modern-btn {
+    height: 40px !important;
+    font-size: 14px !important;
+    border-radius: 20px !important;
+    padding: 0 16px !important;
+  }
+  
+  .modern-btn .v-icon {
+    margin-right: 4px !important;
+    font-size: 18px !important;
+  }
 }
 
-.v-icon.wobble {
-  animation: wobble 3s ease-in-out infinite;
+/* 移动端AI分析卡片优化 */
+@media (max-width: 768px) {
+  .summary-card {
+    margin: 16px !important;
+    border-radius: 16px !important;
+  }
+  
+  .summary-card .v-card-title {
+    padding: 16px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+  
+  .summary-card .v-card-title .text-h5 {
+    font-size: 1.2rem !important;
+  }
+  
+  .summary-card .v-card-title .v-icon {
+    font-size: 24px !important;
+    margin-right: 8px !important;
+  }
+  
+  .summary-card .v-card-text {
+    padding: 16px !important;
+  }
+  
+  .summary-card .v-divider {
+    margin: 0 16px !important;
+  }
 }
 
-.v-icon.rotating-icon {
-  animation: rotate 10s linear infinite;
+/* 移动端Markdown内容优化 */
+@media (max-width: 768px) {
+  .markdown-content {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+  
+  .markdown-content h1 {
+    font-size: 1.3rem !important;
+    margin: 16px 0 12px 0 !important;
+  }
+  
+  .markdown-content h2 {
+    font-size: 1.2rem !important;
+    margin: 14px 0 10px 0 !important;
+  }
+  
+  .markdown-content h3 {
+    font-size: 1.1rem !important;
+    margin: 12px 0 8px 0 !important;
+  }
+  
+  .markdown-content p {
+    margin: 8px 0 !important;
+    font-size: 14px !important;
+  }
+  
+  .markdown-content ul, 
+  .markdown-content ol {
+    padding-left: 20px !important;
+    margin: 8px 0 !important;
+  }
+  
+  .markdown-content li {
+    margin: 4px 0 !important;
+    font-size: 14px !important;
+  }
+  
+  .markdown-content blockquote {
+    border-left: 3px solid #667eea !important;
+    padding-left: 12px !important;
+    margin: 12px 0 !important;
+    font-style: italic !important;
+    background: rgba(102, 126, 234, 0.05) !important;
+    border-radius: 0 8px 8px 0 !important;
+    padding: 8px 12px !important;
+  }
+  
+  .markdown-content code {
+    background: rgba(102, 126, 234, 0.1) !important;
+    padding: 2px 4px !important;
+    border-radius: 4px !important;
+    font-size: 12px !important;
+  }
+  
+  .markdown-content pre {
+    background: rgba(102, 126, 234, 0.05) !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+    overflow-x: auto !important;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+  }
+  
+  .markdown-content img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    margin: 12px 0 !important;
+  }
+  
+  .markdown-content table {
+    width: 100% !important;
+    font-size: 12px !important;
+    border-collapse: collapse !important;
+    margin: 12px 0 !important;
+    overflow-x: auto !important;
+    display: block !important;
+    white-space: nowrap !important;
+  }
+  
+  .markdown-content th,
+  .markdown-content td {
+    padding: 6px 8px !important;
+    border: 1px solid rgba(102, 126, 234, 0.2) !important;
+    text-align: left !important;
+  }
+  
+  .markdown-content th {
+    background: rgba(102, 126, 234, 0.1) !important;
+    font-weight: 600 !important;
+  }
 }
 
-/* 卡片边框发光效果 */
-.floating-card {
-  position: relative;
+/* 移动端图表优化 */
+@media (max-width: 768px) {
+  .chart-container {
+    margin: 16px !important;
+    padding: 16px !important;
+    border-radius: 16px !important;
+  }
+  
+  .chart-container .v-card-title {
+    padding: 16px !important;
+    font-size: 1.1rem !important;
+  }
+  
+  .chart-container .v-card-text {
+    padding: 16px !important;
+  }
+  
+  /* 图表响应式 */
+  .chart-wrapper {
+    width: 100% !important;
+    height: 250px !important;
+    overflow: hidden !important;
+  }
+  
+  .chart-wrapper canvas,
+  .chart-wrapper svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
 }
 
-.floating-card::after {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: linear-gradient(45deg, #667eea, #764ba2, #4ecdc4, #06ffa5);
-  border-radius: inherit;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+/* 移动端动画优化 */
+@media (max-width: 768px) {
+  .floating-card {
+    transform: none !important;
+  }
+  
+  .floating-card:hover {
+    transform: none !important;
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.1) !important;
+  }
+  
+  .floating-card::after {
+    display: none !important;
+  }
+  
+  /* 简化动画效果 */
+  .v-icon.pulse {
+    animation: none !important;
+  }
+  
+  .v-icon.wobble {
+    animation: none !important;
+  }
+  
+  .v-icon.rotating-icon {
+    animation: none !important;
+  }
 }
 
-.floating-card:hover::after {
-  opacity: 0.1;
+/* 超小屏幕优化 */
+@media (max-width: 375px) {
+  .topic-card,
+  .summary-card,
+  .chart-container {
+    margin: 12px !important;
+  }
+  
+  .topic-card .v-card-text,
+  .summary-card .v-card-text {
+    padding: 16px !important;
+  }
+  
+  .topic-title {
+    font-size: 1.2rem !important;
+  }
+  
+  .stats-row .v-col {
+    padding: 4px !important;
+  }
+  
+  .stat-card {
+    min-height: 80px !important;
+  }
+  
+  .stat-card .v-card-text {
+    padding: 8px !important;
+  }
+  
+  .stat-card .text-h5 {
+    font-size: 1rem !important;
+  }
+  
+  .markdown-content {
+    font-size: 13px !important;
+  }
+}
+
+/* 横屏模式优化 */
+@media (max-width: 768px) and (orientation: landscape) {
+  .loading-container {
+    padding: 20px !important;
+    margin: 12px !important;
+  }
+  
+  .topic-card,
+  .summary-card {
+    margin: 12px !important;
+  }
+  
+  .topic-card .v-card-text,
+  .summary-card .v-card-text {
+    padding: 16px !important;
+  }
+  
+  .stats-row .v-col {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+  }
+  
+  .chart-wrapper {
+    height: 200px !important;
+  }
 }
 </style>
 

@@ -19,7 +19,7 @@ def run(server_class=None, handler_class=None):
     try:
         log("使用Flask框架启动服务器...")
         # 使用默认配置启动Flask应用
-        flask_run(host='127.0.0.1', port=5251, debug=False)
+        flask_run(host='0.0.0.0', port=5251, debug=False)
     except Exception as e:
         log(f"服务器启动失败: {e}")
         raise

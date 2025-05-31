@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API测试</title>
+</head>
+<body>
+    <h1>API调试测试</h1>
+    <button onclick="testApi()">测试API</button>
+    <div id="result"></div>
+    
+    <script>
+        async function testApi() {
+            const resultDiv = document.getElementById('result');
+            
+            try {
+                console.log('开始测试API...');
+                console.log('当前URL:', window.location.href);
+                console.log('当前端口:', window.location.port);
+                
+                // 测试相对路径
+                const response = await fetch('/api/hot');
+                console.log('响应状态:', response.status);
+                console.log('响应头:', [...response.headers.entries()]);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                console.log('响应数据:', data);
+                
+                resultDiv.innerHTML = `
+                    <h2>成功!</h2>
+                    <p>状态码: ${response.status}</p>
+                    <p>数据条数: ${data.name ? data.name.length : 0}</p>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                console.error('API测试失败:', error);
+                resultDiv.innerHTML = `
+                    <h2>失败!</h2>
+                    <p>错误: ${error.message}</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>
