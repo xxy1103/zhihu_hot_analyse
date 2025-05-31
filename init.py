@@ -41,19 +41,19 @@ def zhihu_update(zhihu):
         font_path = os.path.join(os.environ.get('WINDIR', 'C:\\Windows'), 'Fonts', 'simhei.ttf')
         
         try:
-            draw_chart(f'./data/csv/zhihu_hot{key}.csv', font_path, './index/Social Media Data Analytics Platform/')
+            draw_chart(f'./data/csv/zhihu_hot{key}.csv', font_path, './index/vue/')
             log("已更新图表")
         except Exception as e:
             log(f"更新图表失败，错误信息：{e}")
         
         try:
-            hot_list_analyse(f'./data/csv/zhihu_hot{key}.csv', './index/Social Media Data Analytics Platform/public/doc/')
+            hot_list_analyse(f'./data/csv/zhihu_hot{key}.csv', './index/vue/public/doc/')
             log("已更新ai主页分析")
         except Exception as e:
             log(f"更新ai主页分析失败，错误信息：{e}")
         
         try:
-            hot_answer_analyse(zhihu_hot_list, './index/Social Media Data Analytics Platform/public/doc/')
+            hot_answer_analyse(zhihu_hot_list, './index/vue/public/doc/')
             log("已更新所有ai评论总结")
         except Exception as e:
             log(f"更新所有ai评论总结失败，错误信息：{e}")
